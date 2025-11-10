@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "flaticon_mycollection";
+    src: url("../fonts/flaticon_mycollection.ttf?d7c5a1d8e68124f954799a5b3b349adf") format("truetype"),
+url("../fonts/flaticon_mycollection.woff?d7c5a1d8e68124f954799a5b3b349adf") format("woff"),
+url("../fonts/flaticon_mycollection.woff2?d7c5a1d8e68124f954799a5b3b349adf") format("woff2"),
+url("../fonts/flaticon_mycollection.eot?d7c5a1d8e68124f954799a5b3b349adf#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_mycollection.svg?d7c5a1d8e68124f954799a5b3b349adf#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-nutrition:before {
+    content: "\f101";
+}
+.flaticon-nutrition-1:before {
+    content: "\f102";
+}
+.flaticon-nutrition-2:before {
+    content: "\f103";
+}
+.flaticon-nutrition-3:before {
+    content: "\f104";
+}
+.flaticon-calendar:before {
+    content: "\f105";
+}
+.flaticon-yoga-pose:before {
+    content: "\f106";
+}

@@ -1,0 +1,49 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?d7c5a1d8e68124f954799a5b3b349adf") format("truetype"),
+url("./flaticon_mycollection.woff?d7c5a1d8e68124f954799a5b3b349adf") format("woff"),
+url("./flaticon_mycollection.woff2?d7c5a1d8e68124f954799a5b3b349adf") format("woff2"),
+url("./flaticon_mycollection.eot?d7c5a1d8e68124f954799a5b3b349adf#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?d7c5a1d8e68124f954799a5b3b349adf#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "nutrition": "\f101",
+    "nutrition-1": "\f102",
+    "nutrition-2": "\f103",
+    "nutrition-3": "\f104",
+    "calendar": "\f105",
+    "yoga-pose": "\f106",
+);
+
+.flaticon-nutrition:before {
+    content: map-get($flaticon_mycollection-map, "nutrition");
+}
+.flaticon-nutrition-1:before {
+    content: map-get($flaticon_mycollection-map, "nutrition-1");
+}
+.flaticon-nutrition-2:before {
+    content: map-get($flaticon_mycollection-map, "nutrition-2");
+}
+.flaticon-nutrition-3:before {
+    content: map-get($flaticon_mycollection-map, "nutrition-3");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon_mycollection-map, "calendar");
+}
+.flaticon-yoga-pose:before {
+    content: map-get($flaticon_mycollection-map, "yoga-pose");
+}

@@ -1,0 +1,781 @@
+$flaticon_medical-new-font: "flaticon_medical-new";
+
+@font-face {
+    font-family: $flaticon_medical-new-font;
+    src: url("./flaticon_medical-new.ttf?0c7a93969a08f1c13afc90f31b2e2426") format("truetype"),
+url("./flaticon_medical-new.woff?0c7a93969a08f1c13afc90f31b2e2426") format("woff"),
+url("./flaticon_medical-new.woff2?0c7a93969a08f1c13afc90f31b2e2426") format("woff2"),
+url("./flaticon_medical-new.eot?0c7a93969a08f1c13afc90f31b2e2426#iefix") format("embedded-opentype"),
+url("./flaticon_medical-new.svg?0c7a93969a08f1c13afc90f31b2e2426#flaticon_medical-new") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_medical-new !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_medical-new-map: (
+    "call": "\f101",
+    "chat": "\f102",
+    "search": "\f103",
+    "calendar": "\f104",
+    "healthcare": "\f105",
+    "doctor": "\f106",
+    "heart-disease": "\f107",
+    "heart": "\f108",
+    "heart-1": "\f109",
+    "heart-beat": "\f10a",
+    "24-hours": "\f10b",
+    "quotes": "\f10c",
+    "globe": "\f10d",
+    "time": "\f10e",
+    "email": "\f10f",
+    "appointment": "\f110",
+    "doctor-1": "\f111",
+    "healthcare-1": "\f112",
+    "hospital": "\f113",
+    "hospital-bed": "\f114",
+    "booking": "\f115",
+    "location": "\f116",
+    "email-1": "\f117",
+    "phone": "\f118",
+    "heart-2": "\f119",
+    "microscope": "\f11a",
+    "coronavirus": "\f11b",
+    "stethoscope": "\f11c",
+    "health-insurance": "\f11d",
+    "emergency-call": "\f11e",
+    "eye": "\f11f",
+    "doctor-2": "\f120",
+    "pay": "\f121",
+    "up-arrow": "\f122",
+    "send": "\f123",
+    "box": "\f124",
+    "call-1": "\f125",
+    "doctor-3": "\f126",
+    "healthcare-2": "\f127",
+    "eye-glass": "\f128",
+    "view": "\f129",
+    "up-right-arrow": "\f12a",
+    "hospital-1": "\f12b",
+    "face": "\f12c",
+    "skin-cell": "\f12d",
+    "liposuction": "\f12e",
+    "hair-transplant": "\f12f",
+    "lip-augmentation": "\f130",
+    "hip": "\f131",
+    "medical": "\f132",
+    "doctor-4": "\f133",
+    "veterinary": "\f134",
+    "veterinary-1": "\f135",
+    "veterinarian": "\f136",
+    "phone-call": "\f137",
+    "doctor-appointment": "\f138",
+    "eye-2": "\f139",
+    "gynecology": "\f13a",
+    "24-hour": "\f13b",
+    "hematology": "\f13c",
+    "hematology-1": "\f13d",
+    "quality": "\f13e",
+    "24-hours-support": "\f13f",
+    "user": "\f140",
+    "tooth": "\f141",
+    "root-canal": "\f142",
+    "tooth-whitening": "\f143",
+    "implant": "\f144",
+    "tooth-extraction": "\f145",
+    "chair": "\f146",
+    "health-insurance-1": "\f147",
+    "earth-grid": "\f148",
+    "dental-care": "\f149",
+    "menu": "\f14a",
+    "right-arrow": "\f14b",
+    "market-share": "\f14c",
+    "stethoscope-2": "\f14d",
+    "hydrotherapy": "\f14e",
+    "kidney": "\f14f",
+    "question": "\f150",
+    "event": "\f151",
+    "asterisk": "\f152",
+    "kidney-1": "\f153",
+    "info": "\f154",
+    "health-insurance-2": "\f155",
+    "nanobot": "\f156",
+    "patient": "\f157",
+    "asterisk-1": "\f158",
+    "award": "\f159",
+    "trophy": "\f15a",
+    "trophy-1": "\f15b",
+    "stethoscope-3": "\f15c",
+    "heart-rate-monitor": "\f15d",
+    "heart-3": "\f15e",
+    "heart-disease-1": "\f15f",
+    "ecg-monitor": "\f160",
+    "heart-4": "\f161",
+    "cardiologist": "\f162",
+    "monitor": "\f163",
+    "cardiogram": "\f164",
+    "information-button": "\f165",
+    "pdf": "\f166",
+    "blood-bank": "\f167",
+    "ambulance": "\f168",
+    "heartbeat": "\f169",
+    "pacemaker": "\f16a",
+    "medical-prescription": "\f16b",
+    "plus": "\f16c",
+    "ambulance-1": "\f16d",
+    "arrow": "\f16e",
+    "quote": "\f16f",
+    "affordable": "\f170",
+    "plus-1": "\f171",
+    "blepharoplasty": "\f172",
+    "chin": "\f173",
+    "beauty": "\f174",
+    "upload": "\f175",
+    "back": "\f176",
+    "down-arrow": "\f177",
+    "pin": "\f178",
+    "purchase": "\f179",
+    "bill": "\f17a",
+    "warranty": "\f17b",
+    "send-1": "\f17c",
+    "star": "\f17d",
+    "add-to-cart": "\f17e",
+    "facebook-app-symbol": "\f17f",
+    "instagram": "\f180",
+    "twitter": "\f181",
+    "pinterest": "\f182",
+    "free-shipping": "\f183",
+    "vitamin": "\f184",
+    "syrup": "\f185",
+    "drugs": "\f186",
+    "surgery": "\f187",
+    "ointment": "\f188",
+    "orthopedics": "\f189",
+    "join": "\f18a",
+    "orthopedics-1": "\f18b",
+    "scoliosis": "\f18c",
+    "bones": "\f18d",
+    "orthopedics-2": "\f18e",
+    "broken-bone": "\f18f",
+    "broken-bone-1": "\f190",
+    "spine": "\f191",
+    "hip-replacement": "\f192",
+    "back-1": "\f193",
+    "broken-arm": "\f194",
+    "broken-bone-2": "\f195",
+    "arthritis": "\f196",
+    "posture": "\f197",
+    "insoles": "\f198",
+    "bone": "\f199",
+    "broken": "\f19a",
+    "herniated-disc": "\f19b",
+    "bones-1": "\f19c",
+    "bone-density": "\f19d",
+    "flexible": "\f19e",
+    "fracture": "\f19f",
+    "walker": "\f1a0",
+    "bone-1": "\f1a1",
+    "bone-2": "\f1a2",
+    "crutches": "\f1a3",
+    "crutches-1": "\f1a4",
+    "medicine": "\f1a5",
+    "insoles-1": "\f1a6",
+    "crutches-2": "\f1a7",
+    "crutch": "\f1a8",
+    "prosthetic": "\f1a9",
+    "refund": "\f1aa",
+    "van": "\f1ab",
+    "list": "\f1ac",
+    "grid": "\f1ad",
+    "menu-1": "\f1ae",
+    "medical-symbol": "\f1af",
+    "thinking": "\f1b0",
+    "neurology": "\f1b1",
+    "brain": "\f1b2",
+    "nervous-system": "\f1b3",
+    "brain-1": "\f1b4",
+    "neurology-1": "\f1b5",
+    "mental-health": "\f1b6",
+    "intelligent": "\f1b7",
+    "human-brain": "\f1b8",
+    "neurobiology": "\f1b9",
+    "neurology-2": "\f1ba",
+    "neurology-3": "\f1bb",
+    "neurology-4": "\f1bc",
+    "right-arrow-1": "\f1bd",
+);
+
+.flaticon-call:before {
+    content: map-get($flaticon_medical-new-map, "call");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon_medical-new-map, "chat");
+}
+.flaticon-search:before {
+    content: map-get($flaticon_medical-new-map, "search");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon_medical-new-map, "calendar");
+}
+.flaticon-healthcare:before {
+    content: map-get($flaticon_medical-new-map, "healthcare");
+}
+.flaticon-doctor:before {
+    content: map-get($flaticon_medical-new-map, "doctor");
+}
+.flaticon-heart-disease:before {
+    content: map-get($flaticon_medical-new-map, "heart-disease");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon_medical-new-map, "heart");
+}
+.flaticon-heart-1:before {
+    content: map-get($flaticon_medical-new-map, "heart-1");
+}
+.flaticon-heart-beat:before {
+    content: map-get($flaticon_medical-new-map, "heart-beat");
+}
+.flaticon-24-hours:before {
+    content: map-get($flaticon_medical-new-map, "24-hours");
+}
+.flaticon-quotes:before {
+    content: map-get($flaticon_medical-new-map, "quotes");
+}
+.flaticon-globe:before {
+    content: map-get($flaticon_medical-new-map, "globe");
+}
+.flaticon-time:before {
+    content: map-get($flaticon_medical-new-map, "time");
+}
+.flaticon-email:before {
+    content: map-get($flaticon_medical-new-map, "email");
+}
+.flaticon-appointment:before {
+    content: map-get($flaticon_medical-new-map, "appointment");
+}
+.flaticon-doctor-1:before {
+    content: map-get($flaticon_medical-new-map, "doctor-1");
+}
+.flaticon-healthcare-1:before {
+    content: map-get($flaticon_medical-new-map, "healthcare-1");
+}
+.flaticon-hospital:before {
+    content: map-get($flaticon_medical-new-map, "hospital");
+}
+.flaticon-hospital-bed:before {
+    content: map-get($flaticon_medical-new-map, "hospital-bed");
+}
+.flaticon-booking:before {
+    content: map-get($flaticon_medical-new-map, "booking");
+}
+.flaticon-location:before {
+    content: map-get($flaticon_medical-new-map, "location");
+}
+.flaticon-email-1:before {
+    content: map-get($flaticon_medical-new-map, "email-1");
+}
+.flaticon-phone:before {
+    content: map-get($flaticon_medical-new-map, "phone");
+}
+.flaticon-heart-2:before {
+    content: map-get($flaticon_medical-new-map, "heart-2");
+}
+.flaticon-microscope:before {
+    content: map-get($flaticon_medical-new-map, "microscope");
+}
+.flaticon-coronavirus:before {
+    content: map-get($flaticon_medical-new-map, "coronavirus");
+}
+.flaticon-stethoscope:before {
+    content: map-get($flaticon_medical-new-map, "stethoscope");
+}
+.flaticon-health-insurance:before {
+    content: map-get($flaticon_medical-new-map, "health-insurance");
+}
+.flaticon-emergency-call:before {
+    content: map-get($flaticon_medical-new-map, "emergency-call");
+}
+.flaticon-eye:before {
+    content: map-get($flaticon_medical-new-map, "eye");
+}
+.flaticon-doctor-2:before {
+    content: map-get($flaticon_medical-new-map, "doctor-2");
+}
+.flaticon-pay:before {
+    content: map-get($flaticon_medical-new-map, "pay");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon_medical-new-map, "up-arrow");
+}
+.flaticon-send:before {
+    content: map-get($flaticon_medical-new-map, "send");
+}
+.flaticon-box:before {
+    content: map-get($flaticon_medical-new-map, "box");
+}
+.flaticon-call-1:before {
+    content: map-get($flaticon_medical-new-map, "call-1");
+}
+.flaticon-doctor-3:before {
+    content: map-get($flaticon_medical-new-map, "doctor-3");
+}
+.flaticon-healthcare-2:before {
+    content: map-get($flaticon_medical-new-map, "healthcare-2");
+}
+.flaticon-eye-glass:before {
+    content: map-get($flaticon_medical-new-map, "eye-glass");
+}
+.flaticon-view:before {
+    content: map-get($flaticon_medical-new-map, "view");
+}
+.flaticon-up-right-arrow:before {
+    content: map-get($flaticon_medical-new-map, "up-right-arrow");
+}
+.flaticon-hospital-1:before {
+    content: map-get($flaticon_medical-new-map, "hospital-1");
+}
+.flaticon-face:before {
+    content: map-get($flaticon_medical-new-map, "face");
+}
+.flaticon-skin-cell:before {
+    content: map-get($flaticon_medical-new-map, "skin-cell");
+}
+.flaticon-liposuction:before {
+    content: map-get($flaticon_medical-new-map, "liposuction");
+}
+.flaticon-hair-transplant:before {
+    content: map-get($flaticon_medical-new-map, "hair-transplant");
+}
+.flaticon-lip-augmentation:before {
+    content: map-get($flaticon_medical-new-map, "lip-augmentation");
+}
+.flaticon-hip:before {
+    content: map-get($flaticon_medical-new-map, "hip");
+}
+.flaticon-medical:before {
+    content: map-get($flaticon_medical-new-map, "medical");
+}
+.flaticon-doctor-4:before {
+    content: map-get($flaticon_medical-new-map, "doctor-4");
+}
+.flaticon-veterinary:before {
+    content: map-get($flaticon_medical-new-map, "veterinary");
+}
+.flaticon-veterinary-1:before {
+    content: map-get($flaticon_medical-new-map, "veterinary-1");
+}
+.flaticon-veterinarian:before {
+    content: map-get($flaticon_medical-new-map, "veterinarian");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon_medical-new-map, "phone-call");
+}
+.flaticon-doctor-appointment:before {
+    content: map-get($flaticon_medical-new-map, "doctor-appointment");
+}
+.flaticon-eye-2:before {
+    content: map-get($flaticon_medical-new-map, "eye-2");
+}
+.flaticon-gynecology:before {
+    content: map-get($flaticon_medical-new-map, "gynecology");
+}
+.flaticon-24-hour:before {
+    content: map-get($flaticon_medical-new-map, "24-hour");
+}
+.flaticon-hematology:before {
+    content: map-get($flaticon_medical-new-map, "hematology");
+}
+.flaticon-hematology-1:before {
+    content: map-get($flaticon_medical-new-map, "hematology-1");
+}
+.flaticon-quality:before {
+    content: map-get($flaticon_medical-new-map, "quality");
+}
+.flaticon-24-hours-support:before {
+    content: map-get($flaticon_medical-new-map, "24-hours-support");
+}
+.flaticon-user:before {
+    content: map-get($flaticon_medical-new-map, "user");
+}
+.flaticon-tooth:before {
+    content: map-get($flaticon_medical-new-map, "tooth");
+}
+.flaticon-root-canal:before {
+    content: map-get($flaticon_medical-new-map, "root-canal");
+}
+.flaticon-tooth-whitening:before {
+    content: map-get($flaticon_medical-new-map, "tooth-whitening");
+}
+.flaticon-implant:before {
+    content: map-get($flaticon_medical-new-map, "implant");
+}
+.flaticon-tooth-extraction:before {
+    content: map-get($flaticon_medical-new-map, "tooth-extraction");
+}
+.flaticon-chair:before {
+    content: map-get($flaticon_medical-new-map, "chair");
+}
+.flaticon-health-insurance-1:before {
+    content: map-get($flaticon_medical-new-map, "health-insurance-1");
+}
+.flaticon-earth-grid:before {
+    content: map-get($flaticon_medical-new-map, "earth-grid");
+}
+.flaticon-dental-care:before {
+    content: map-get($flaticon_medical-new-map, "dental-care");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon_medical-new-map, "menu");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_medical-new-map, "right-arrow");
+}
+.flaticon-market-share:before {
+    content: map-get($flaticon_medical-new-map, "market-share");
+}
+.flaticon-stethoscope-2:before {
+    content: map-get($flaticon_medical-new-map, "stethoscope-2");
+}
+.flaticon-hydrotherapy:before {
+    content: map-get($flaticon_medical-new-map, "hydrotherapy");
+}
+.flaticon-kidney:before {
+    content: map-get($flaticon_medical-new-map, "kidney");
+}
+.flaticon-question:before {
+    content: map-get($flaticon_medical-new-map, "question");
+}
+.flaticon-event:before {
+    content: map-get($flaticon_medical-new-map, "event");
+}
+.flaticon-asterisk:before {
+    content: map-get($flaticon_medical-new-map, "asterisk");
+}
+.flaticon-kidney-1:before {
+    content: map-get($flaticon_medical-new-map, "kidney-1");
+}
+.flaticon-info:before {
+    content: map-get($flaticon_medical-new-map, "info");
+}
+.flaticon-health-insurance-2:before {
+    content: map-get($flaticon_medical-new-map, "health-insurance-2");
+}
+.flaticon-nanobot:before {
+    content: map-get($flaticon_medical-new-map, "nanobot");
+}
+.flaticon-patient:before {
+    content: map-get($flaticon_medical-new-map, "patient");
+}
+.flaticon-asterisk-1:before {
+    content: map-get($flaticon_medical-new-map, "asterisk-1");
+}
+.flaticon-award:before {
+    content: map-get($flaticon_medical-new-map, "award");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon_medical-new-map, "trophy");
+}
+.flaticon-trophy-1:before {
+    content: map-get($flaticon_medical-new-map, "trophy-1");
+}
+.flaticon-stethoscope-3:before {
+    content: map-get($flaticon_medical-new-map, "stethoscope-3");
+}
+.flaticon-heart-rate-monitor:before {
+    content: map-get($flaticon_medical-new-map, "heart-rate-monitor");
+}
+.flaticon-heart-3:before {
+    content: map-get($flaticon_medical-new-map, "heart-3");
+}
+.flaticon-heart-disease-1:before {
+    content: map-get($flaticon_medical-new-map, "heart-disease-1");
+}
+.flaticon-ecg-monitor:before {
+    content: map-get($flaticon_medical-new-map, "ecg-monitor");
+}
+.flaticon-heart-4:before {
+    content: map-get($flaticon_medical-new-map, "heart-4");
+}
+.flaticon-cardiologist:before {
+    content: map-get($flaticon_medical-new-map, "cardiologist");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon_medical-new-map, "monitor");
+}
+.flaticon-cardiogram:before {
+    content: map-get($flaticon_medical-new-map, "cardiogram");
+}
+.flaticon-information-button:before {
+    content: map-get($flaticon_medical-new-map, "information-button");
+}
+.flaticon-pdf:before {
+    content: map-get($flaticon_medical-new-map, "pdf");
+}
+.flaticon-blood-bank:before {
+    content: map-get($flaticon_medical-new-map, "blood-bank");
+}
+.flaticon-ambulance:before {
+    content: map-get($flaticon_medical-new-map, "ambulance");
+}
+.flaticon-heartbeat:before {
+    content: map-get($flaticon_medical-new-map, "heartbeat");
+}
+.flaticon-pacemaker:before {
+    content: map-get($flaticon_medical-new-map, "pacemaker");
+}
+.flaticon-medical-prescription:before {
+    content: map-get($flaticon_medical-new-map, "medical-prescription");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon_medical-new-map, "plus");
+}
+.flaticon-ambulance-1:before {
+    content: map-get($flaticon_medical-new-map, "ambulance-1");
+}
+.flaticon-arrow:before {
+    content: map-get($flaticon_medical-new-map, "arrow");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon_medical-new-map, "quote");
+}
+.flaticon-affordable:before {
+    content: map-get($flaticon_medical-new-map, "affordable");
+}
+.flaticon-plus-1:before {
+    content: map-get($flaticon_medical-new-map, "plus-1");
+}
+.flaticon-blepharoplasty:before {
+    content: map-get($flaticon_medical-new-map, "blepharoplasty");
+}
+.flaticon-chin:before {
+    content: map-get($flaticon_medical-new-map, "chin");
+}
+.flaticon-beauty:before {
+    content: map-get($flaticon_medical-new-map, "beauty");
+}
+.flaticon-upload:before {
+    content: map-get($flaticon_medical-new-map, "upload");
+}
+.flaticon-back:before {
+    content: map-get($flaticon_medical-new-map, "back");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon_medical-new-map, "down-arrow");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon_medical-new-map, "pin");
+}
+.flaticon-purchase:before {
+    content: map-get($flaticon_medical-new-map, "purchase");
+}
+.flaticon-bill:before {
+    content: map-get($flaticon_medical-new-map, "bill");
+}
+.flaticon-warranty:before {
+    content: map-get($flaticon_medical-new-map, "warranty");
+}
+.flaticon-send-1:before {
+    content: map-get($flaticon_medical-new-map, "send-1");
+}
+.flaticon-star:before {
+    content: map-get($flaticon_medical-new-map, "star");
+}
+.flaticon-add-to-cart:before {
+    content: map-get($flaticon_medical-new-map, "add-to-cart");
+}
+.flaticon-facebook-app-symbol:before {
+    content: map-get($flaticon_medical-new-map, "facebook-app-symbol");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon_medical-new-map, "instagram");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon_medical-new-map, "twitter");
+}
+.flaticon-pinterest:before {
+    content: map-get($flaticon_medical-new-map, "pinterest");
+}
+.flaticon-free-shipping:before {
+    content: map-get($flaticon_medical-new-map, "free-shipping");
+}
+.flaticon-vitamin:before {
+    content: map-get($flaticon_medical-new-map, "vitamin");
+}
+.flaticon-syrup:before {
+    content: map-get($flaticon_medical-new-map, "syrup");
+}
+.flaticon-drugs:before {
+    content: map-get($flaticon_medical-new-map, "drugs");
+}
+.flaticon-surgery:before {
+    content: map-get($flaticon_medical-new-map, "surgery");
+}
+.flaticon-ointment:before {
+    content: map-get($flaticon_medical-new-map, "ointment");
+}
+.flaticon-orthopedics:before {
+    content: map-get($flaticon_medical-new-map, "orthopedics");
+}
+.flaticon-join:before {
+    content: map-get($flaticon_medical-new-map, "join");
+}
+.flaticon-orthopedics-1:before {
+    content: map-get($flaticon_medical-new-map, "orthopedics-1");
+}
+.flaticon-scoliosis:before {
+    content: map-get($flaticon_medical-new-map, "scoliosis");
+}
+.flaticon-bones:before {
+    content: map-get($flaticon_medical-new-map, "bones");
+}
+.flaticon-orthopedics-2:before {
+    content: map-get($flaticon_medical-new-map, "orthopedics-2");
+}
+.flaticon-broken-bone:before {
+    content: map-get($flaticon_medical-new-map, "broken-bone");
+}
+.flaticon-broken-bone-1:before {
+    content: map-get($flaticon_medical-new-map, "broken-bone-1");
+}
+.flaticon-spine:before {
+    content: map-get($flaticon_medical-new-map, "spine");
+}
+.flaticon-hip-replacement:before {
+    content: map-get($flaticon_medical-new-map, "hip-replacement");
+}
+.flaticon-back-1:before {
+    content: map-get($flaticon_medical-new-map, "back-1");
+}
+.flaticon-broken-arm:before {
+    content: map-get($flaticon_medical-new-map, "broken-arm");
+}
+.flaticon-broken-bone-2:before {
+    content: map-get($flaticon_medical-new-map, "broken-bone-2");
+}
+.flaticon-arthritis:before {
+    content: map-get($flaticon_medical-new-map, "arthritis");
+}
+.flaticon-posture:before {
+    content: map-get($flaticon_medical-new-map, "posture");
+}
+.flaticon-insoles:before {
+    content: map-get($flaticon_medical-new-map, "insoles");
+}
+.flaticon-bone:before {
+    content: map-get($flaticon_medical-new-map, "bone");
+}
+.flaticon-broken:before {
+    content: map-get($flaticon_medical-new-map, "broken");
+}
+.flaticon-herniated-disc:before {
+    content: map-get($flaticon_medical-new-map, "herniated-disc");
+}
+.flaticon-bones-1:before {
+    content: map-get($flaticon_medical-new-map, "bones-1");
+}
+.flaticon-bone-density:before {
+    content: map-get($flaticon_medical-new-map, "bone-density");
+}
+.flaticon-flexible:before {
+    content: map-get($flaticon_medical-new-map, "flexible");
+}
+.flaticon-fracture:before {
+    content: map-get($flaticon_medical-new-map, "fracture");
+}
+.flaticon-walker:before {
+    content: map-get($flaticon_medical-new-map, "walker");
+}
+.flaticon-bone-1:before {
+    content: map-get($flaticon_medical-new-map, "bone-1");
+}
+.flaticon-bone-2:before {
+    content: map-get($flaticon_medical-new-map, "bone-2");
+}
+.flaticon-crutches:before {
+    content: map-get($flaticon_medical-new-map, "crutches");
+}
+.flaticon-crutches-1:before {
+    content: map-get($flaticon_medical-new-map, "crutches-1");
+}
+.flaticon-medicine:before {
+    content: map-get($flaticon_medical-new-map, "medicine");
+}
+.flaticon-insoles-1:before {
+    content: map-get($flaticon_medical-new-map, "insoles-1");
+}
+.flaticon-crutches-2:before {
+    content: map-get($flaticon_medical-new-map, "crutches-2");
+}
+.flaticon-crutch:before {
+    content: map-get($flaticon_medical-new-map, "crutch");
+}
+.flaticon-prosthetic:before {
+    content: map-get($flaticon_medical-new-map, "prosthetic");
+}
+.flaticon-refund:before {
+    content: map-get($flaticon_medical-new-map, "refund");
+}
+.flaticon-van:before {
+    content: map-get($flaticon_medical-new-map, "van");
+}
+.flaticon-list:before {
+    content: map-get($flaticon_medical-new-map, "list");
+}
+.flaticon-grid:before {
+    content: map-get($flaticon_medical-new-map, "grid");
+}
+.flaticon-menu-1:before {
+    content: map-get($flaticon_medical-new-map, "menu-1");
+}
+.flaticon-medical-symbol:before {
+    content: map-get($flaticon_medical-new-map, "medical-symbol");
+}
+.flaticon-thinking:before {
+    content: map-get($flaticon_medical-new-map, "thinking");
+}
+.flaticon-neurology:before {
+    content: map-get($flaticon_medical-new-map, "neurology");
+}
+.flaticon-brain:before {
+    content: map-get($flaticon_medical-new-map, "brain");
+}
+.flaticon-nervous-system:before {
+    content: map-get($flaticon_medical-new-map, "nervous-system");
+}
+.flaticon-brain-1:before {
+    content: map-get($flaticon_medical-new-map, "brain-1");
+}
+.flaticon-neurology-1:before {
+    content: map-get($flaticon_medical-new-map, "neurology-1");
+}
+.flaticon-mental-health:before {
+    content: map-get($flaticon_medical-new-map, "mental-health");
+}
+.flaticon-intelligent:before {
+    content: map-get($flaticon_medical-new-map, "intelligent");
+}
+.flaticon-human-brain:before {
+    content: map-get($flaticon_medical-new-map, "human-brain");
+}
+.flaticon-neurobiology:before {
+    content: map-get($flaticon_medical-new-map, "neurobiology");
+}
+.flaticon-neurology-2:before {
+    content: map-get($flaticon_medical-new-map, "neurology-2");
+}
+.flaticon-neurology-3:before {
+    content: map-get($flaticon_medical-new-map, "neurology-3");
+}
+.flaticon-neurology-4:before {
+    content: map-get($flaticon_medical-new-map, "neurology-4");
+}
+.flaticon-right-arrow-1:before {
+    content: map-get($flaticon_medical-new-map, "right-arrow-1");
+}
