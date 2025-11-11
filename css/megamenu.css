@@ -92,7 +92,7 @@ nav.main-menu ul.menu li ul.mega-submenu li a {
     background-color: transparent;
 }
 nav.main-menu ul.menu li ul.mega-submenu li:hover a,
-nav.main-menu ul.menu > li:hover > a{color: #9fdd0b;}
+nav.main-menu ul.menu > li:hover > a{color: #8FAA8D;}
 
 nav.main-menu ul.menu li ul.mega-submenu > li:last-child > a {
     border-bottom: 0;
@@ -270,7 +270,7 @@ ul.menu-col li a:focus{
      nav.main-menu ul.menu > li.active > a,
      nav.main-menu ul.menu li.active ul.mega-submenu li.active > a,
      nav.main-menu ul.menu > li > a:hover{
-        color: var(--base-skin);
+        color: #8FAA8D;
         background: var(--base-gradient);
         -webkit-background-clip: text;
     }
