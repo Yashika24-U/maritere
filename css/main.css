@@ -248,7 +248,11 @@ menu, ol, ul {
 .headingfont-color { color: var(--base-headingfont-color); }
 
 /** Background Colors **/
-.bg-base-skin { background-color: var(--base-skin);}
+/* .bg-base-skin { background-color: var(--base-skin);} */
+.bg-base-skin {
+    background-color: #8FAA8D;
+}
+
 .bg-base-dark { background-color: var(--base-dark);}
 .bg-base-grey { background-color: var(--base-grey);}
 .bg-base-white { background-color: var(--base-white);}

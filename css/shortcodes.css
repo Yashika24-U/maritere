@@ -158,7 +158,7 @@
 ------------------------*/
 .prt-equal-height-image{ display: none; }
 .col-bg-img-one.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
-    background-image: url(../images/bg-image/col-bgimage-1.png);
+    background-image: url("/Images/dillidalli-colorcorrection-2.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3421,7 +3421,7 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
 .hero-section.hero-wrapper{
     width: 100%;
     min-height: 700px;
-    background-image: url(../images/slides/slider-mainbg-01.png);
+    background-image: url("/Images/Value-Proposition.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
