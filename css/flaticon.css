@@ -7,6 +7,8 @@ url("../fonts/flaticon_mycollection.eot?d7c5a1d8e68124f954799a5b3b349adf#iefix")
 url("../fonts/flaticon_mycollection.svg?d7c5a1d8e68124f954799a5b3b349adf#flaticon_mycollection") format("svg");
 }
 
+
+
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     font-family: flaticon_mycollection !important;
     font-style: normal;
@@ -36,3 +38,4 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 .flaticon-yoga-pose:before {
     content: "\f106";
 }
+
