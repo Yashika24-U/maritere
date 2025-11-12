@@ -3441,7 +3441,24 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
     width: 100%;
     text-align: center;
 }
-
+.hero-section1{ position: relative; }
+.hero-section1.hero-wrapper{
+    width: 100%;
+    min-height: 700px;
+    background-image: url("/images/Images/science-banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-section2{ position: relative; }
+.hero-section2.hero-wrapper{
+    width: 100%;
+    min-height: 700px;
+    background-image: url("/images/Images/services-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .hero-section .prt-page-title-row-inner .hero-content-block{
     position: absolute;
     bottom: -140px;

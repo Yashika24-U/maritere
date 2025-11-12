@@ -813,9 +813,9 @@
   [class*="col-lg"] .prt-equal-height-image.prt-list-img {
     display: block;
   }
-  .section-title .title-header {
+  /* .section-title .title-header {
     padding-bottom: 100px;
-  }
+  } */
   .section-title h2.title br,
   .featured-icon-box.style1 .featured-title h3 br {
     display: none;
