@@ -111,12 +111,14 @@ jQuery(function($) {
     };
 
     
-    $('.btn-show-menu-mobile').on('click', function(e){
-        $(this).toggleClass('is-active'); 
-        $('.menu-mobile').toggleClass('show'); 
-        return false;
-        e.preventDefault();  
-    });
+    // $('.btn-show-menu-mobile').on('click', function(e){
+    //     $(this).toggleClass('is-active'); 
+    //     $('.menu-mobile').toggleClass('show'); 
+    //     return false;
+    //     e.preventDefault();  
+    // });
+
+
 
     // Initialize
     $(document).ready(function(){
