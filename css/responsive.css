@@ -641,6 +641,12 @@
     transition: all 0.5s ease 0s;
     margin: 0 !important;
   }
+  .prt-btn.prt-btn-style-fill.prt-btn-color-skincolor:hover {
+    background-color: #f2a483;
+    border-color: #f2a483;
+    color: var(--base-white);
+  }
+  
 }
 
 /* Large screen */
@@ -735,6 +741,8 @@
     line-height: 50px;
     margin-bottom: 8px;
   }
+
+  
 
   /* prt-bg-layer */
   [class*="col-lg"] .prt-col-bgimage-yes,
