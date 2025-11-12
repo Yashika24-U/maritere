@@ -627,7 +627,7 @@
   .prt-btn {
     display: inline-block;
     vertical-align: middle;
-    font-size: 6px !important;
+    /* font-size: 0px !important; */
     padding: 8px !important;
     background: transparent;
     border-width: 1px;
@@ -646,7 +646,6 @@
     border-color: #f2a483;
     color: var(--base-white);
   }
-  
 }
 
 /* Large screen */
@@ -719,9 +718,9 @@
   [class*="col-lg"] .prt-equal-height-image.prt-list-img {
     display: block;
   }
-  .section-title .title-header {
+  /* .section-title .title-header {
     padding-bottom: 100px;
-  }
+  } */
   .section-title h2.title br,
   .featured-icon-box.style1 .featured-title h3 br {
     display: none;
@@ -741,8 +740,6 @@
     line-height: 50px;
     margin-bottom: 8px;
   }
-
-  
 
   /* prt-bg-layer */
   [class*="col-lg"] .prt-col-bgimage-yes,
