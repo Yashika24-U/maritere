@@ -608,8 +608,7 @@
     width: 100%;
   }
 }
-
-@media (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 534px) {
   .hero-section .hero-content h2 {
     font-size: 12px !important;
     font-weight: 700;
@@ -623,11 +622,10 @@
   .hero-section .prt-page-title-row-inner .hero-content-block {
     padding: 10px !important;
   }
-
   .prt-btn {
     display: inline-block;
     vertical-align: middle;
-    font-size: 6px !important;
+    /* font-size: 0px !important; */
     padding: 8px !important;
     background: transparent;
     border-width: 1px;
@@ -640,6 +638,70 @@
     font-family: var(--base-headingfont);
     transition: all 0.5s ease 0s;
     margin: 0 !important;
+  }
+  .prt-btn.prt-btn-style-fill.prt-btn-color-skincolor:hover {
+    background-color: #f2a483;
+    border-color: #f2a483;
+    color: var(--base-white);
+  }
+}
+/* Mobile Medium: 487px to 530px */
+@media (min-width: 487px) and (max-width: 530px) {
+  .hero-section .hero-content h2 {
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 50px 30px !important;
+  }
+  .hero-section .hero-content h3 {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .hero-section .prt-page-title-row-inner .hero-content-block {
+    padding: 16px !important;
+  }
+  .prt-btn {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px !important;
+    padding: 12px 22px !important;
+    background: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    font-family: var(--base-headingfont);
+    transition: all 0.5s ease 0s;
+    margin: 0 !important;
+  }
+  .prt-btn.prt-btn-style-fill.prt-btn-color-skincolor:hover {
+    background-color: #f2a483;
+    border-color: #f2a483;
+    color: var(--base-white);
+  }
+}
+
+/* Small tablets: 535px to 767px */
+@media (min-width: 535px) and (max-width: 767px) {
+  .hero-section .hero-content h2 {
+    font-size: 30px !important;
+    line-height: 40px;
+    margin: 60px !important;
+  }
+  .hero-section .hero-content h3 {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+  .hero-section .prt-page-title-row-inner .hero-content-block {
+    padding: 20px !important;
+  }
+
+  .prt-btn {
+    font-size: 10px !important;
+    padding: 10px 25px !important;
   }
 }
 
