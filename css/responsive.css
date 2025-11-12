@@ -650,10 +650,12 @@
     font-size: 52px !important;
     font-weight: 700;
     line-height: 70px;
-    margin: 100px !important;
+    /* margin: 10px !important; */
+    padding: 120px 120px !important;
   }
   .hero-section .hero-content h3 {
-    font-size: 28px !important;
+    margin-top: -90px !important;
+    font-size: 22px !important;
     line-height: 40px !important;
   }
   .hero-section .prt-page-title-row-inner .hero-content-block {
