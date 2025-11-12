@@ -356,6 +356,7 @@
     text-align: center;
     font-family: var(--base-headingfont);
     transition: all 0.5s ease 0s;
+    margin: 30px;
 }
 
 /** btn-color **/
@@ -420,7 +421,10 @@
 .prt-btn.prt-btn-size-sm i { font-size: 14px; line-height: 16px;}
 
 /** btn-size-md **/
-.prt-btn.prt-btn-size-md { font-size: 18px; padding: 15px 30px 15px;}
+.prt-btn.prt-btn-size-md {
+     font-size: 18px; 
+     /* padding: 15px 30px 15px; */
+    }
 .prt-btn.prt-btn-size-md i { font-size: 15px; line-height: 15px; }
 .prt-btn.prt-btn-size-md.prt-icon-btn-right { padding: 11px 35px 11px 0px; float: right; }
 .prt-btn.prt-btn-size-md.prt-icon-btn-left{ padding: 11px 30px 11px 20px; }
@@ -3484,17 +3488,17 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
 
 }
 
-.hero-section .hero-content h2{
+/* .hero-section .hero-content h2{
     padding:50px 0px 0px 0px;
     
-}
+} */
 
 .hero-section .hero-content h3{
     font-size: 24px;
     line-height: 34px;
     color: rgb(115, 115, 115);
     font-weight: 500;
-    padding:30px 0px 0px 0px;
+    /* padding:30px 0px 0px 0px; */
 }
 .hero-section .hero-content h2.title {
     font-size: 90px;
