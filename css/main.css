@@ -1579,6 +1579,7 @@ nav.main-menu ul {
   display: flex;
 }
 
+
 /**  side-menu **/
 .prt-header-style-01 .side-menu a .ti-menu:before {
   content: url(../images/float-bar.png);
@@ -1733,7 +1734,7 @@ nav.main-menu ul {
 .floatbar-menu-box_1
   .form-block
   .icon-wrapper
-  ..prt-btn.btn-inline.prt-btn-color-darkgrey:before {
+  .prt-btn.btn-inline.prt-btn-color-darkgrey:before {
   content: unset;
 }
 .floatbar-menu-box_1
