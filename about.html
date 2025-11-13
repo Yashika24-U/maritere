@@ -14,6 +14,7 @@
     <meta name="author" content="https://www.themetechmount.com/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>THE LIVING PRACTICE</title>
+
     <link rel="shortcut icon" href="/images/Images/logo 1.png" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
@@ -29,10 +30,446 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/megamenu.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+    <!-- Internal Styling -->
+        <style>
+          .about-section {
+            background-color: #f9fafb;
+            padding: 80px 0;
+          }
+
+          .about-title {
+            /* font-size: 2.2rem;
+            font-weight: 700;
+            color: #2c3e50; */
+            margin-bottom: 25px;
+          }
+
+          .about-subtitle {
+            /* font-size: 1.3rem;
+            font-weight: 600;
+            color: #0a6ebd; */
+            margin-top: 40px;
+            margin-bottom: 10px;
+          }
+
+          .about-text {
+            /* font-size: 1.05rem;
+            line-height: 1.8;
+            color: #444; */
+            margin-bottom: 18px;
+          }
+
+          .about-content {
+            padding-right: 30px;
+          }
+
+          .about-image img {
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: auto;
+          }
+
+          /* .btn-learn-more {
+            display: inline-block;
+            margin-top: 25px;
+            background-color: #0a6ebd;
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+          } */
+
+          /* .btn-learn-more:hover {
+            background-color: #084f8a;
+          } */
+
+          @media (max-width: 991px) {
+            .about-content {
+              padding-right: 0;
+              margin-bottom: 40px;
+            }
+
+            .about-title {
+              text-align: center;
+            }
+
+            .about-image img {
+              max-width: 100%;
+            }
+          }
+
+         
+    /* Typography & Base */
+    :root {
+      --primary-color: #0a6ebd;
+      --primary-dark: #084f8a;
+      --text-dark: #2c3e50;
+      --text-medium: #444;
+      --text-light: #6b7280;
+      --bg-light: #f9fafb;
+      --spacing-unit: 1rem;
+    }
+
+    /* body {
+      font-family:"DM Sans", sans-serif;
+      color: var(--text-medium);
+      line-height: 1.7;
+    } */
+    /* 9fDD0B */
+/* 
+    body {
+    font-family: var(--base-bodyfont);
+    font-weight: 400;
+    font-size: var(--base-bodyfont-Size);
+    line-height: 24px;
+    color: var(--base-bodyfont-color);
+} */
+
+    /* Hero Section */
+    .about-hero {
+      background: linear-gradient(135deg, #8faa8d 0%, #669B92 100%);
+
+      padding: 100px 0 80px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .about-hero h1 {
+      /* font-size: 3.5rem;
+      font-weight: 700; */
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .about-hero p {
+      /* font-size: 1.25rem; */
+      max-width: 700px;
+      margin: 0 auto;
+      opacity: 0.95;
+    }
+
+    /* Doctor Profile Section */
+    .doctor-profile {
+      padding: 100px 0;
+      background: #ffffff;
+    }
+
+    .section-label {
+      /* font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.1em; */
+      text-transform: uppercase;
+      color: #8faa8d;
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      /* font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--text-dark); */
+      margin-bottom: 2rem;
+      /* line-height: 1.2; */
+    }
+
+    .profile-image {
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .profile-content {
+      padding-left: 3rem;
+    }
+
+    .profile-text {
+      /* font-size: 1.0625rem; */
+      line-height: 1.8;
+      color: var(--text-medium);
+      margin-bottom: 1.5rem;
+    }
+
+    .profile-highlight {
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+
+    /* Approach/Philosophy Cards */
+    .approach-section {
+      padding: 100px 0;
+      background: var(--bg-light);
+    }
+
+    .approach-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 40px;
+      height: 100%;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+      border: 1px solid #e5e7eb;
+    }
+
+    .approach-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+      border-color: transparent;
+    }
+
+    .approach-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+      /* background: linear-gradient(135deg, #0a6ebd 0%, #084f8a 100%); */
+      background: #8faa8d;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* font-size: 1.75rem; */
+      margin-bottom: 1.5rem;
+    }
+
+    .approach-card h3 {
+      /* font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--text-dark); */
+      margin-bottom: 1rem;
+    }
+
+    .approach-card p {
+      /* font-size: 1rem;
+      line-height: 1.7;
+      color: var(--text-light); */
+      margin: 0;
+    }
+
+    /* Credentials Section */
+    .credentials-section {
+      padding: 100px 0;
+      background: #ffffff;
+    }
+
+    .credential-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 2rem;
+      padding: 24px;
+      background: var(--bg-light);
+      border-radius: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .credential-item:hover {
+      background: #ffffff;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      transform: translateX(8px);
+    }
+
+    .credential-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 8px;
+      background: #8faa8d;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* font-size: 1.25rem; */
+      margin-right: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .credential-content h4 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: var(--text-dark);
+      margin-bottom: 0.5rem;
+    }
+
+    .credential-content p {
+      font-size: 0.9375rem;
+      color: var(--text-light);
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    /* Stats Section */
+    .stats-section {
+      padding: 80px 0;
+      background: linear-gradient(135deg, #8faa8d 0%, #669B92 100%);
+      color: #ffffff;
+    }
+
+    .stat-item {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .stat-number {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 1.125rem;
+      opacity: 0.95;
+    }
+
+    /* CTA Section */
+    .cta-section {
+      padding: 100px 0;
+      background: var(--bg-light);
+      text-align: center;
+    }
+
+    .cta-title {
+      /* font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--text-dark); */
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-description {
+      /* font-size: 1.125rem;
+      color: var(--text-light); */
+      max-width: 700px;
+      margin: 0 auto 2.5rem;
+    }
+
+    .btn-primary-custom {
+      display: inline-block;
+      padding: 16px 40px;
+      background: #8FAA8D;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+      /* box-shadow: 0 4px 15px rgba(10, 110, 189, 0.3); */
+    }
+
+    .btn-primary-custom:hover {
+      transform: translateY(-2px);
+      /* box-shadow: 0 6px 25px rgba(10, 110, 189, 0.4); */
+      color: #ffffff;
+      background: #F2A483;
+    }
+
+    .btn-secondary-custom {
+      display: inline-block;
+      padding: 16px 40px;
+      background:#8FAA8D;
+      color:#ffffff;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      /* border: 2px solid var(--text-dark); */
+      border-radius: 50px;
+      transition: all 0.3s ease;
+      margin-left: 1rem;
+    }
+
+    .btn-secondary-custom:hover {
+      background:#F2A483;
+      color: #ffffff;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 991px) {
+      /* .about-hero h1 {
+        font-size: 2.5rem;
+      } */
+
+      /* .section-title {
+        font-size: 2rem;
+      } */
+
+      .profile-content {
+        padding-left: 0;
+        margin-top: 3rem;
+      }
+
+      .doctor-profile,
+      .approach-section,
+      .credentials-section,
+      .cta-section {
+        padding: 60px 0;
+      }
+
+      .btn-secondary-custom {
+        margin-left: 0;
+        margin-top: 1rem;
+        display: block;
+        width: 100%;
+      }
+
+      .btn-primary-custom {
+        display: block;
+        width: 100%;
+      }
+      .btn-secondary-custom:hover{
+        background-color: #F2A483;
+      }
+      .btn-primary-custom:hover{
+        background-color: #F2A483;
+      }
+
+
+
+      /* background-color: #F2A483; */
+    }
+
+    @media (max-width: 767px) {
+      .about-hero {
+        padding: 60px 0 40px;
+      }
+
+      /* .about-hero h1 {
+        font-size: 2rem;
+      }
+
+      .about-hero p {
+        font-size: 1rem;
+      } */
+
+      /* .section-title {
+        font-size: 1.75rem;
+      } */
+
+      .stat-number {
+        font-size: 2.5rem;
+      }
+
+      /* .cta-title {
+        font-size: 1.75rem;
+      } */
+
+      .credential-item {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .credential-icon {
+        margin: 0 auto 1rem;
+      }
+    }
+
+        </style>
   </head>
   <body>
     <!-- page start -->
     <div class="page">
+      <!-- header start -->
+       <div class="page">
       <!-- header start -->
       <header id="masthead" class="header prt-header-style-01">
         <!-- topbar -->
@@ -104,7 +541,7 @@
                                 <li class="mega-menu-item">
                                   <a href="index.html">Home</a>
                                 </li>
-                                <li class="mega-menu-item">
+                                <li class="mega-menu-item active">
                                   <a href="about.html">About</a>
                                 </li>
                                 <li class="mega-menu-item">
@@ -176,7 +613,7 @@
                                     </li>
                                   </ul>
                                 </li> -->
-                                <!-- <li class="mega-menu-item active">
+                                <!-- <li class="mega-menu-item">
                                   <a href="faq.html">FAQ</a> -->
                                 <li class="mega-menu-item">
                                   <a href="contact-us.html">Contact Us</a>
@@ -336,523 +773,267 @@
         </div>
       </header>
       <!-- header end -->
-      <!-- page-title -->
-      <!-- <div class="prt-page-title-row overflow-hidden">
-        <div class="prt-page-title-row-bg-layer prt-bg-layer"></div>
-        <div class="prt-page-title-row-inner">
+
+      <!-- about-section -->
+      <div class="site-main">
+        
+        <!-- Hero Section -->
+        <section class="about-hero">
           <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="prt-page-title-row-heading">
-                  <div class="banner-vertical-block"></div>
-                  <div class="page-title-heading">
-                    <h2 class="title">FAQ</h2>
-                  </div>
-                  <div class="breadcrumb-wrapper">
-                    <span>
-                      <a title="Homepage" href="index.html"
-                        ><i class="ti ti-home"></i>&nbsp;&nbsp;Home</a
-                      >
-                    </span>
-                    <span class="prt-bread-sep"> &nbsp; :&nbsp;: &nbsp; </span>
-                    <span class="text-base-skin">faq</span>
-                  </div>
+            <h1>About Dr. Maritere Rochet</h1>
+            <p>
+              Physician-Guided, Evidence-Based Wellness Care for Lasting Health
+            </p>
+          </div>
+        </section>
+
+        <!-- Doctor Profile Section -->
+        <section class="doctor-profile">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 mb-4 mb-lg-0">
+                <img
+                  src="/images/Images/dillidalli-colorcorrection-2 1.jpg"
+                  alt="Dr. Maritere Rochet"
+                  class="profile-image"
+                />
+              </div>
+              <div class="col-lg-6">
+                <div class="profile-content">
+                  <span class="section-label">Meet Your Doctor</span>
+                  <h2 class="section-title">
+                    Dedicated to Your Whole-Person Wellness
+                  </h2>
+
+                  <p>
+                    <span class="profile-highlight"
+                      >Dr. Maritere Rochet, MD, MPH, DipABLM</span
+                    >
+                    leads with a physician-guided, evidence-based approach to
+                    wellness care. As a Lifestyle Medicine physician, she
+                    conducts a comprehensive assessment of six key pillars of
+                    health — nutrition, physical activity, restorative sleep,
+                    stress management, healthy relationships, and avoidance of
+                    risky substances.
+                  </p>
+
+                  <p>
+                    Based on these insights, she designs personalized care plans
+                    to prevent, improve, and even reverse chronic disease.
+                    Working collaboratively with primary care physicians and
+                    specialists, she ensures a holistic, coordinated approach to
+                    lasting healing.
+                  </p>
+
+                  <p>
+                    As a military spouse and practicing physician, she has
+                    served diverse communities across the U.S., offering
+                    culturally sensitive, personalized care.
+                    <span class="profile-highlight"
+                      >Fluent in both English and Spanish</span
+                    >, Dr. Rochet ensures every patient feels seen, supported,
+                    and understood.
+                  </p>
                 </div>
               </div>
             </div>
-          </div> -->
-          <!-- <div class="bg-page-title-overlay"></div> -->
-        <!-- </div>
-      </div> -->
-      <!-- page-title end -->
-
-      <!--hero-banner start-->
-        <div class="hero-section3 animation hero-wrapper clearfix">
-        <div class="prt-page-title-row-inner">
           </div>
-          </div>
-          <!-- hero-banner end -->
-      
-      <!-- site-main start -->
-      <div class="site-main">
+        </section>
 
-          
-        <!--section-->
-        <section class="prt-row faq-service clearfix">
+        <!-- Approach & Philosophy Section -->
+        <section class="approach-section">
           <div class="container">
-            <div class="row">
-              <div class="col-lg-12 m-auto">
-                <!-- section title -->
-                <div class="section-title style3 title-style-center_text">
-                  <div class="title-header">
-                    <h2 class="title">Get your answer here</h2>
-                  </div>
-                  <div class="desc">
-                    <p>
-                      Learn more about Lifestyle Medicine and what to expect when beginning care at The Living Practice MD.<br>
-These answers reflect the most common questions from patients interested in a science-based, physician-guided approach to wellness, prevention, and sustainable healing.
+            <div class="text-center mb-5">
+              <span class="section-label">Our Foundation</span>
+              <h2 class="section-title">Approach & Philosophy</h2>
+            </div>
 
+            <div class="row g-4">
+              <div class="col-lg-4 col-md-6">
+                <div class="approach-card">
+                  <div class="approach-icon">
+                    <i class="fas fa-seedling"></i>
+                  </div>
+                  <h3>My Approach</h3>
+                  <p>
+                    Dr. Rochet's approach centers on identifying and addressing
+                    the root causes of illness while supporting the body's
+                    natural ability to restore balance and thrive. This
+                    personalized, supportive path helps patients heal from
+                    within.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="approach-card">
+                  <div class="approach-icon">
+                    <i class="fas fa-heart"></i>
+                  </div>
+                  <h3>My Philosophy</h3>
+                  <p>
+                    True health is not simply the absence of disease—it is the
+                    presence of energy, joy, and a deep connection to one's
+                    authentic self. Care is grounded in science, delivered with
+                    compassion, and built on partnership and trust.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="approach-card">
+                  <div class="approach-icon">
+                    <i class="fas fa-hands-helping"></i>
+                  </div>
+                  <h3>Patient Partnership</h3>
+                  <p>
+                    Every patient journey is unique. Dr. Rochet works
+                    collaboratively with you and your healthcare team to create
+                    sustainable lifestyle changes that enhance energy, vitality,
+                    and overall well-being.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Credentials Section -->
+        <section class="credentials-section">
+          <div class="container">
+            <div class="text-center mb-5">
+              <span class="section-label">Qualifications</span>
+              <h2 class="section-title">Credentials & Background</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="credential-item">
+                  <div class="credential-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <div class="credential-content">
+                    <h4>Board Certifications</h4>
+                    <p>
+                      Double board-certified in Family Medicine and Lifestyle
+                      Medicine
                     </p>
                   </div>
                 </div>
-                <!-- section title end -->
+
+                <div class="credential-item">
+                  <div class="credential-icon">
+                    <i class="fas fa-user-md"></i>
+                  </div>
+                  <div class="credential-content">
+                    <h4>Clinical Experience</h4>
+                    <p>
+                      Over 15 years of experience in primary care and
+                      whole-person wellness
+                    </p>
+                  </div>
+                </div>
+
+                <div class="credential-item">
+                  <div class="credential-icon">
+                    <i class="fas fa-award"></i>
+                  </div>
+                  <div class="credential-content">
+                    <h4>Advanced Training</h4>
+                    <p>
+                      Master of Public Health (MPH) with emphasis on prevention
+                      and patient empowerment
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="accordion style2 mt-20">
-                  <!-- toggle 1-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#" class="active"
-                        > What is Lifestyle Medicine?</a>
-                    </div>
-                    <div class="toggle-content show">
-                      <p>
-                        Lifestyle Medicine is a board-certified medical specialty that uses therapeutic lifestyle interventions — such as nutrition, physical activity, restorative sleep, stress management, social connection, and avoidance of risky substances — to prevent, treat, and often reverse chronic disease. It is an evidence-based, physician-guided discipline focused on addressing the root causes of illness rather than managing symptoms alone.
-In short: Lifestyle Medicine is not an alternative to traditional medicine — it’s the foundation of it.
 
-                      </p>
-                    </div>
+              <div class="col-lg-6">
+                <div class="credential-item">
+                  <div class="credential-icon">
+                    <i class="fas fa-globe-americas"></i>
                   </div>
-                  <!-- toggle end -->
-                  <!-- toggle 2-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#">How is Lifestyle Medicine different from functional or alternative medicine?
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                         Lifestyle Medicine is a board-certified, evidence-based medical specialty that uses proven lifestyle interventions — including nutrition, movement, sleep, stress management, social connection, and avoidance of risky substances — as the primary treatment for chronic disease.<br>
-While functional and alternative medicine may incorporate complementary or supplemental therapies, Lifestyle Medicine is distinguished by its scientific rigor, standardized medical training, and clinical guidelines.<br>
-It integrates seamlessly with traditional medical care to prevent, treat, and often reverse disease by addressing its root causes through sustainable, evidence-based behavior change.
-
-                      </p>
-                    </div>
+                  <div class="credential-content">
+                    <h4>Diverse Community Service</h4>
+                    <p>
+                      Served military and civilian communities across the United
+                      States
+                    </p>
                   </div>
-                  <!-- toggle end -->
-                  <!-- toggle 3 -->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#">Do you accept insurance?
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        The Living Practice MD is a cash-based Lifestyle Medicine practice, allowing for longer, more personalized visits and a focus on prevention rather than symptom management.<br>
-Payment is due at the time of service, and superbills can be provided so that patients may request potential reimbursement from their insurance company, depending on their plan’s benefits.
+                </div>
 
-                      </p>
-                    </div>
+                <div class="credential-item">
+                  <div class="credential-icon">
+                    <i class="fas fa-language"></i>
                   </div>
-                  <!-- toggle end -->
-                  <!-- toggle 4-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#">Do you replace my primary care physician?
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        No. Dr. Rochet works collaboratively with your primary care doctor and specialists to ensure continuity and safety.<br>
-Her goal is to bridge the gap between traditional care and preventive health — offering Lifestyle Medicine support that complements your existing medical team.
-
-                      </p>
-                    </div>
+                  <div class="credential-content">
+                    <h4>Bilingual Care</h4>
+                    <p>
+                      Fluent in English and Spanish, providing culturally
+                      sensitive healthcare
+                    </p>
                   </div>
-                  <!-- toggle end -->
-                  <!-- toggle 5-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#"
-                        >What conditions can benefit from Lifestyle Medicine?</a
-                      >
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Lifestyle Medicine is especially effective for:<br>
-                        <ul>
-                           <li>Type 2 Diabetes</li>
-                           <li>Heart disease and hypertension</li>
-<li>High cholesterol</li>
-<li>Obesity and metabolic syndrome</li>
-<li>Fatty liver disease</li>
-<li>PCOS and hormonal imbalance</li>
-<li>Anxiety, depression, and insomnia</li>
-<li>Early cognitive decline</li>
-<li>Osteoarthritis and inflammatory conditions</li>
-<li>Cancer prevention and survivorship</li>
-                        </ul>
-By addressing the root causes of disease, Lifestyle Medicine helps prevent, improve, and often reverse chronic conditions.
+                </div>
 
-                      </p>
-                    </div>
+                <div class="credential-item">
+                  <div class="credential-icon">
+                    <i class="fas fa-certificate"></i>
                   </div>
-                  <!-- toggle end -->
-                   <!-- toggle 6 -->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#">How long are visits and how often will I see you?
-
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Initial visits are typically 60 minutes, allowing time to explore your history, goals, and lifestyle factors.<br>
-Follow-up frequency depends on your personalized plan but often ranges from monthly to quarterly, with progress assessments and refinements as you move toward your goals.
-
-
-                      </p>
-                    </div>
+                  <div class="credential-content">
+                    <h4>Lifestyle Medicine Specialist</h4>
+                    <p>
+                      Diplomate of the American Board of Lifestyle Medicine<br>
+                      (DipABLM)
+                    </p>
                   </div>
-                  <!-- toggle end -->
-                   <!-- toggle 7-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#">Can you help me if I’m already on medication?
-
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Absolutely. Many patients experience measurable improvements that allow for safe medication reduction under medical supervision.<br>
-Lifestyle Medicine enhances — rather than conflicts with — pharmacologic treatment by supporting the body’s natural ability to heal and rebalance.
-
-
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
-                   <!-- toggle 8-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#">What can I expect during my first visit?</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Your first consultation includes a comprehensive Lifestyle Medicine assessment across the six pillars of health, a review of labs and medical history, and a personalized action plan.<br>
-You’ll leave with clear next steps and practical tools to begin implementing change right away.
-
-
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
-                   <!-- toggle 9-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#">Do you offer telehealth appointments?
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Yes. Virtual visits are available for established patients throughout Florida, providing convenience and flexibility without compromising the quality or continuity of care.
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
-                   <!-- toggle 10-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#"> Can I work with you if I’m not sick but want to feel better or age well?
-
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Yes. Many patients choose Lifestyle Medicine for prevention, longevity, and optimization — not only for disease management.<br>
-Together, we’ll design a personalized plan to enhance your vitality, energy, and emotional well-being at every stage of life.
-
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
-                   <!-- toggle 11-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#"> What makes Lifestyle Medicine different from health coaching or nutrition counseling?
-
-
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Lifestyle Medicine is guided by board-certified physicians trained to evaluate medical history, interpret labs, and identify the biological, psychological, social, and environmental factors that influence health.<br>
-It focuses on clinical prevention and disease reversal using evidence-based interventions, often in collaboration with health coaches, dietitians, and other allied professionals as part of a team approach.
-
-
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
-                    <!-- toggle 12-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#"> Do you order labs or review existing lab results?</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Yes. Dr. Rochet reviews your existing lab results and may recommend additional tests when clinically appropriate.<br>
-Lab findings are interpreted through a Lifestyle Medicine lens — focusing on prevention, root causes, and measurable improvements over time.
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
-                   <!-- toggle 13-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#"> Can Lifestyle Medicine really reverse disease?
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Yes — in many cases. Lifestyle Medicine interventions can reverse the progression of conditions such as type 2 diabetes, hypertension, obesity, fatty liver disease, and early heart disease.<br>
-Reversal occurs when key health markers — like blood sugar, blood pressure, or cholesterol — return to healthy ranges and the body’s underlying biology begins to heal.<br>
-These outcomes are supported by decades of clinical research showing that sustainable lifestyle changes can restore health and prevent disease progression.
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
-                    <!-- toggle 14-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#"> What happens after I finish a program or initial visits?
-
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        After completing your initial plan or program, you can continue with follow-up visits to maintain progress, adjust goals, and stay accountable.<br>
-Many patients transition into a maintenance or longevity plan for continued support in optimizing health and preventing relapse.
-
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
-                   <!-- toggle 15-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#"> Can you work with my other specialists (like a cardiologist or endocrinologist)?
-
-
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Yes. Collaboration is central to Dr. Rochet’s approach. With your consent, she communicates with your other healthcare providers to ensure your Lifestyle Medicine plan complements and enhances your overall treatment strategy.
-
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
-                   <!-- toggle 16-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#">  Do you recommend supplements or medications?
-
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Lifestyle Medicine focuses on evidence-based lifestyle interventions as the foundation of care.<br>
-However, when clinically appropriate, Dr. Rochet may recommend medications or supplements supported by strong scientific evidence to complement your individualized plan and ensure safe, effective outcomes.
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
-                   <!-- toggle 17-->
-                  <div
-                    class="toggle prt-toggle_style_classic prt-control-right-true"
-                  >
-                    <div class="toggle-title">
-                      <a href="#">  How is Lifestyle Medicine different from concierge or primary care?
-
-
-</a>
-                    </div>
-                    <div class="toggle-content">
-                      <p>
-                        Unlike concierge or primary care models, Lifestyle Medicine focuses exclusively on preventive, root-cause, and behavior-based interventions rather than routine medical management or urgent care.<br>
-It’s designed for patients who want to optimize long-term health and longevity through scientifically grounded lifestyle transformation.
-
-                      </p>
-                    </div>
-                  </div>
-                  <!-- toggle end -->
                 </div>
               </div>
             </div>
-            <!-- row end -->
           </div>
         </section>
-        <!--section end-->
-        <!--client-section-->
-        <!-- <section class="prt-row client-section bg-base-dark clearfix">
-          <div class="container-fluid">
-            <div
-              class="row slick_slider"
-              data-slick='{"slidesToShow": 6, "slidesToScroll": 1, "arrows":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 5}}, {"breakpoint":1024,"settings":{"slidesToShow": 4}}, {"breakpoint":777,"settings":{"slidesToShow": 3}},{"breakpoint":575,"settings":{"slidesToShow": 2}},{"breakpoint":380,"settings":{"slidesToShow": 1}}]}'
-            >
-              <div class="col-lg-2">
-                <div class="client-box">
-                  <div class="prt-client-logo-tooltip">
-                    <div class="prt-client-logo-tooltip-inner">
-                      <div class="client-thumbnail">
-                        <img
-                          width="280"
-                          height="60"
-                          class="img-fluid"
-                          src="images/client/client-01.png"
-                          alt="image"
-                        />
-                      </div>
-                    </div>
-                  </div>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="stat-item">
+                  <div class="stat-number">15+</div>
+                  <div class="stat-label">Years of Experience</div>
                 </div>
               </div>
-              <div class="col-lg-2">
-                <div class="client-box">
-                  <div class="prt-client-logo-tooltip">
-                    <div class="prt-client-logo-tooltip-inner">
-                      <div class="client-thumbnail">
-                        <img
-                          width="280"
-                          height="60"
-                          class="img-fluid"
-                          src="images/client/client-01.png"
-                          alt="image"
-                        />
-                      </div>
-                    </div>
-                  </div>
+              <div class="col-md-4">
+                <div class="stat-item">
+                  <div class="stat-number">2</div>
+                  <div class="stat-label">Board Certifications</div>
                 </div>
               </div>
-              <div class="col-lg-2">
-                <div class="client-box">
-                  <div class="prt-client-logo-tooltip">
-                    <div class="prt-client-logo-tooltip-inner">
-                      <div class="client-thumbnail">
-                        <img
-                          width="280"
-                          height="60"
-                          class="img-fluid"
-                          src="images/client/client-01.png"
-                          alt="image"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-2">
-                <div class="client-box">
-                  <div class="prt-client-logo-tooltip">
-                    <div class="prt-client-logo-tooltip-inner">
-                      <div class="client-thumbnail">
-                        <img
-                          width="280"
-                          height="60"
-                          class="img-fluid"
-                          src="images/client/client-01.png"
-                          alt="image"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-2">
-                <div class="client-box">
-                  <div class="prt-client-logo-tooltip">
-                    <div class="prt-client-logo-tooltip-inner">
-                      <div class="client-thumbnail">
-                        <img
-                          width="280"
-                          height="60"
-                          class="img-fluid"
-                          src="images/client/client-01.png"
-                          alt="image"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-2">
-                <div class="client-box">
-                  <div class="prt-client-logo-tooltip">
-                    <div class="prt-client-logo-tooltip-inner">
-                      <div class="client-thumbnail">
-                        <img
-                          width="280"
-                          height="60"
-                          class="img-fluid"
-                          src="images/client/client-01.png"
-                          alt="image"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-2">
-                <div class="client-box">
-                  <div class="prt-client-logo-tooltip">
-                    <div class="prt-client-logo-tooltip-inner">
-                      <div class="client-thumbnail">
-                        <img
-                          width="280"
-                          height="60"
-                          class="img-fluid"
-                          src="images/client/client-01.png"
-                          alt="image"
-                        />
-                      </div>
-                    </div>
-                  </div>
+              <div class="col-md-4">
+                <div class="stat-item">
+                  <div class="stat-number">1000+</div>
+                  <div class="stat-label">Patients Served</div>
                 </div>
               </div>
             </div>
           </div>
-        </section> -->
-        <!--client-section-end-->
-      </div>
-      <!-- site-main end-->
-      <!-- footer start -->
-      <footer
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+          <div class="container">
+            <h2 class="cta-title">Ready to Begin Your Wellness Journey?</h2>
+            <p class="cta-description">
+              Take the first step toward lasting health and vitality. Schedule a
+              consultation to discover how personalized lifestyle medicine can
+              transform your well-being.
+            </p>
+            <a href="contact-us.html" class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skincolor">Schedule Consultation</a>
+            <a href="#" class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skincolor" style="width:253.05px;">Learn More</a>
+          </div>
+        </section>
+        <!-- about-section end -->
+
+        <footer
         class="footer widget-footer bg-base-dark text-base-white clearfix"
       >
         <div class="first-footer">
@@ -862,11 +1043,11 @@ It’s designed for patients who want to optimize long-term health and longevity
                 <div class="widget widget_text">
                   <h3 class="widget-title">ABOUT DR. MARITERE ROCHET</h3>
                   <div class="textwidget widget-text">
-                    Dr. Maritere Rochet, MD, MPH, DipABLM<br>
-Board-Certified in Family Medicine & Lifestyle Medicine<br>
-Founder, The Living Practice MD<br>
-Empowering individuals to prevent disease, live longer, and thrive — through science,
-compassion, and partnership.
+                    Dr. Maritere Rochet, MD, MPH, DipABLM<br />
+                    Board-Certified in Family Medicine & Lifestyle Medicine<br />
+                    Founder, The Living Practice MD<br />
+                    Empowering individuals to prevent disease, live longer, and
+                    thrive — through science, compassion, and partnership.
                   </div>
                   <div class="footer-content-cta">
                     <div class="prt-email">
@@ -882,25 +1063,13 @@ compassion, and partnership.
                   <div class="prt-social-links-wrapper">
                     <ul class="social-icons">
                       <li class="prt-social-facebook">
-                        <a
-                          target="_blank"
-                          href=""
-                          >Facebook</a
-                        >
+                        <a target="_blank" href="">Facebook</a>
                       </li>
                       <li class="prt-social-instagram">
-                        <a
-                          target="_blank"
-                          href="https://www.instagram.com/maritere.rochet?igsh=NmNjNDEybGtuNDY%3D&utm_source=qr"
-                          >Instagram</a
-                        >
+                        <a target="_blank" href="https://www.instagram.com/maritere.rochet?igsh=NmNjNDEybGtuNDY%3D&utm_source=qr">Instagram</a>
                       </li>
                       <li class="prt-social-twitter">
-                        <a
-                          target="_blank"
-                          href=""
-                          >Twitter</a
-                        >
+                        <a target="_blank" href="">Twitter</a>
                       </li>
                       <!-- <li class="prt-social-dribbble">
                         <a
@@ -919,7 +1088,7 @@ compassion, and partnership.
                     <div class="footer-widget-box res-767-mt-30">
                       <!-- <h3 class="widget-title">Services</h3> -->
                       <ul class="menu-footer-link">
-                       <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="service.html">Services</a></li>
                         <li><a href="science.html">Science </a></li>
@@ -931,8 +1100,7 @@ compassion, and partnership.
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <div class="footer-widget-box res-767-mt-30">
                       <h3 class="widget-title">Location</h3>
-                      <p>📍 Sarasota, Florida<br>🌐 The Living Practice MD
-                      </p>
+                      <p>📍 Sarasota, Florida<br />🌐 The Living Practice MD</p>
                       <!-- <ul class="tm-daylist-block">
                         <li>
                           Mon-Fri :
@@ -1020,9 +1188,10 @@ compassion, and partnership.
           </div>
         </div>
       </footer>
-      <!-- footer end -->
+       <!-- footer end -->
     </div>
     <!-- page end -->
+
     <!-- Javascript -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery-migrate-3.4.1.min.js"></script>
@@ -1050,3 +1219,5 @@ compassion, and partnership.
     </script>
   </body>
 </html>
+
+
