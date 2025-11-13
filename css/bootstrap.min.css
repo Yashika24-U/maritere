@@ -654,7 +654,10 @@ progress {
 }
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
+}
+.img-fluid .auto_size .border-rad_15{
+  align-items: center;
 }
 .img-thumbnail {
   padding: 0.25rem;
