@@ -149,6 +149,7 @@
       /* font-size: 1.25rem; */
       max-width: 700px;
       margin: 0 auto;
+      
       opacity: 0.95;
     }
 
@@ -164,7 +165,7 @@
       letter-spacing: 0.1em; */
       text-transform: uppercase;
       color: #8faa8d;
-      margin-bottom: 1rem;
+      margin-bottom: 10px;
     }
 
     .section-title {
@@ -172,6 +173,7 @@
       font-weight: 700;
       color: var(--text-dark); */
       margin-bottom: 2rem;
+      padding-top: 10px;
       /* line-height: 1.2; */
     }
 
@@ -383,58 +385,22 @@
       color: #ffffff;
     }
 
-   
-
     /* Responsive Design */
-
-     @media (max-width: 767px) {
-      .about-hero {
-        padding: 80px  40px;
-      }
-
-      .about-hero h1 {
-        margin-top:40px;
-        font-size: 2rem;
-        line-height: 3rem;
-      }
-
-      .about-hero p {
-        font-size: 1rem;
-      } 
-
-      /* .section-title {
-        font-size: 1.75rem;
-      } */
-
-      .stat-number {
-        font-size: 2.5rem;
-      }
-
-      /* .cta-title {
-        font-size: 1.75rem;
-      } */
-
-      .credential-item {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .credential-icon {
-        margin: 0 auto 1rem;
+   @media (max-width: 375px){ 
+ .about-hero p{
+        margin: 0px auto;
       }
     }
-
-
-    
-     @media (min-width: 768px) and (max-width: 1200px) {
-       .about-hero h1 {
-        font-size: 2.5rem;
-        padding:20px;
-      } 
-
-      /* .section-title {
+    @media (max-width: 991px) {
+      .about-hero h1 {
         font-size: 2rem;
-      } */
+        padding-top: 16px;
+      }
+     
+      
+      .section-title {
+        font-size: 2rem;
+      }
 
       .profile-content {
         padding-left: 0;
@@ -469,14 +435,44 @@
 
 
       /* background-color: #F2A483; */
-    } 
+    }
 
-    
+    @media (max-width: 767px) {
+      .about-hero {
+        padding: 60px 0 40px;
+      }
 
-  
-   
+      .about-hero h1 {
+        font-size: 2rem;
+      }
 
-   
+      .about-hero p {
+        font-size: 1rem;
+        margin: -10px auto;
+      
+      } 
+
+      .section-title {
+        font-size: 1.75rem;
+      }
+
+      .stat-number {
+        font-size: 2.5rem;
+      }
+
+      .cta-title {
+        font-size: 1.75rem;
+      }
+
+      .credential-item {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .credential-icon {
+        margin: 0 auto 1rem;
+      }
+    }
 
         </style>
   </head>
@@ -815,7 +811,7 @@
               </div>
               <div class="col-lg-6">
                 <div class="profile-content">
-                  <span class="section-label">Meet Your Doctor</span>
+                  <span class="section-label">Meet Your Doctor</span> 
                   <h2 class="section-title">
                     Dedicated to Your Whole-Person Wellness
                   </h2>
@@ -1043,7 +1039,7 @@
               transform your well-being.
             </p>
             <a href="contact-us.html" class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skincolor">Schedule Consultation</a>
-            <a href="#" class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skincolor" style="width:253.05px;">Learn More</a>
+            <!-- <a href="#" class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skincolor" style="width:253.05px;">Learn More</a> -->
           </div>
         </section>
         <!-- about-section end -->
@@ -1055,14 +1051,13 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-7 col-md-12 col-sm-12 widget-area">
-                <div class="widget widget_text">
+                <div class="widget widget_text" align="center">
                   <h3 class="widget-title">ABOUT DR. MARITERE ROCHET</h3>
                   <div class="textwidget widget-text">
-                    Dr. Maritere Rochet, MD, MPH, DipABLM<br />
+                    <p>Dr. Maritere Rochet, MD, MPH, DipABLM<br>
                     Board-Certified in Family Medicine & Lifestyle Medicine<br />
                     Founder, The Living Practice MD<br />
-                    Empowering individuals to prevent disease, live longer, and
-                    thrive — through science, compassion, and partnership.
+                    </p>
                   </div>
                   <div class="footer-content-cta">
                     <div class="prt-email">
@@ -1072,7 +1067,7 @@
                       </a>
                     </div>
                     <div class="prt-call">
-                      <a href="tel:+19412386584">+1(941)238-6584</a>
+                      <a href="tel:+19412386584">+1 (941) 238 - 6584</a>
                     </div>
                   </div>
                   <div class="prt-social-links-wrapper">
@@ -1105,7 +1100,7 @@
                       <ul class="menu-footer-link">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="service.html">Services</a></li>
+                        <li><a href="services.html">Services</a></li>
                         <li><a href="science.html">Science </a></li>
                         <li><a href="faq.html">FAQ </a></li>
                         <li><a href="contact-us.html">Contact </a></li>
