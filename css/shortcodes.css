@@ -391,7 +391,7 @@
     border-color: #8FAA8D;
     color: var(--base-white);
     transition: all 0s ease 0s;
-     padding: 8px !important; 
+     padding: 20px !important; 
 }
 .prt-btn.prt-btn-style-fill.prt-btn-color-skincolor:hover{
     background-color: #F2A483;
