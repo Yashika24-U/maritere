@@ -362,7 +362,7 @@
     text-align: center;
     font-family: var(--base-headingfont);
     transition: all 0.5s ease 0s;
-    margin: 30px;
+    /* margin: 30px; */
 }
 
 /** btn-color **/
@@ -428,7 +428,7 @@
 
 /** btn-size-md **/
 .prt-btn.prt-btn-size-md {
-     font-size: 18px; 
+     font-size: 14px; 
      /* padding: 15px 30px 15px; */
     }
 .prt-btn.prt-btn-size-md i { font-size: 15px; line-height: 15px; }
