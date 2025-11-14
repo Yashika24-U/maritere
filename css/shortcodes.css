@@ -391,6 +391,7 @@
     border-color: #8FAA8D;
     color: var(--base-white);
     transition: all 0s ease 0s;
+     padding: 20px !important; 
 }
 .prt-btn.prt-btn-style-fill.prt-btn-color-skincolor:hover{
     background-color: #F2A483;
@@ -402,6 +403,7 @@
     border-color: transparent;
     color: var(--base-dark);
     transition: all 0s ease 0s;
+     
 }
 .prt-btn.prt-btn-style-fill.prt-btn-color-darkcolor:hover,
 .prt-btn.prt-btn-style-fill.prt-btn-color-whitecolor:hover{
