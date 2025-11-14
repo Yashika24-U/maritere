@@ -156,13 +156,19 @@
 /* ===============================================
     5.Col-Bg-Image  
 ------------------------*/
-.prt-equal-height-image{ display: none; }
 .col-bg-img-one.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
-    background-image: url("/images/Images/dillidalli-colorcorrection-2\ 1.jpg");
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: none !important;
 }
+
+/* Show image only for large screens */
+@media (min-width: 1024px) {
+  .col-bg-img-one.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
+      background-image: url("/images/Images/dillidalli-colorcorrection-2 1.jpg") !important;
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+}   
 .col-bg-img-two.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
     background-image: url(../images/bg-image/col-bgimage-2.png);
     background-position: center bottom;
