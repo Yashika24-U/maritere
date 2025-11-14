@@ -556,9 +556,10 @@
     border-right: 0;
   }
   .hero-section .prt-page-title-row-inner .hero-content-block {
-    width: 650px;
+    width: 620px;
     height: 650px;
-    left: 350px;
+    left: 120px;
+    margin-top: 40px;
   }
   .hero-section .hero-content h2.title {
     font-size: 60px;
@@ -617,14 +618,13 @@
 }
 @media (min-width: 375px) and (max-width: 480px) {
   .hero-section .hero-content h2 {
-    font-size: 12px !important;
+    font-size: 24px !important;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 30px;
     margin: 35px !important;
   }
   .hero-section .hero-content h3 {
-    font-size: 12px !important;
-    line-height: 20px !important;
+   display: none !important;
   }
   .hero-section .prt-page-title-row-inner .hero-content-block {
     padding: 10px !important;
@@ -673,6 +673,25 @@
     padding: 10px 25px !important;
   }
 }
+@media (min-width: 800px) and (max-width: 1023px) {
+  .hero-section .prt-page-title-row-inner .hero-content-block {
+        width: 620px;
+        height: 650px;
+        left: 300px;
+        margin-top: 40px;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .hero-section .prt-page-title-row-inner .hero-content-block {
+        width: 620px;
+        height: 650px;
+        left: 300px;
+        margin-top: 40px;
+    }
+}
+
 
 /* Large screen */
 @media (min-width: 1200px) {
@@ -710,9 +729,6 @@
     margin: 0 !important;
   }
 }
- @media (max-width: 375px){
-  
- }
 
 @media (min-width: 1440px) {
   .hero-section .hero-content h2 {
@@ -1542,9 +1558,10 @@
     height: 550px;
   }
   .hero-section .prt-page-title-row-inner .hero-content-block {
-    width: 550px;
-    height: 550px;
-    left: 10px;
+    width: 520px;
+    height: 520px;
+    left: 90px;
+    margin-top: 40px;
   }
   section.error-404 .page-content h3 {
     font-size: 28px;
@@ -1758,9 +1775,10 @@
     margin-top: 0px;
   }
   .hero-section .prt-page-title-row-inner .hero-content-block {
-    width: 470px;
+    margin-top:40px;
+    width: 440px;
     height: 470px;
-    left: 0px;
+    left: 80px;
   }
   .prt-tab-style-02 .content-inner {
     padding: 50px 37px;
@@ -1894,6 +1912,9 @@
     line-height: 40px;
   }
   .hero-section .prt-page-title-row-inner .hero-content-block {
+    width: 280px;
+    height: 280px;
+    margin: 50px;
     width: 280px;
     height: 280px;
     margin: 50px;

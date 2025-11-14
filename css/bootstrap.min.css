@@ -659,6 +659,9 @@ progress {
 .img-fluid .auto_size .border-rad_15{
   align-items: center;
 }
+.img-fluid .auto_size .border-rad_15{
+  align-items: center;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: var(--bs-body-bg);
