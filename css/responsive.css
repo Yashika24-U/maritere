@@ -644,8 +644,15 @@
     text-align: center;
     font-family: var(--base-headingfont);
     transition: all 0.5s ease 0s;
-    margin: 0 !important;
+    margin: -10px !important;
   }
+  .prt-btn.prt-btn-style-fill.prt-btn-color-skincolor {
+    background-color: #8FAA8D;
+    border-color: #8FAA8D;
+    color: var(--base-white);
+    transition: all 0s ease 0s;
+     padding: 8px !important; 
+}
   .prt-btn.prt-btn-style-fill.prt-btn-color-skincolor:hover {
     background-color: #f2a483;
     border-color: #f2a483;
