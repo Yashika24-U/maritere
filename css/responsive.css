@@ -710,6 +710,9 @@
     margin: 0 !important;
   }
 }
+ @media (max-width: 375px){
+  
+ }
 
 @media (min-width: 1440px) {
   .hero-section .hero-content h2 {
