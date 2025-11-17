@@ -408,6 +408,7 @@
   }
   .hero-section.hero-wrapper {
     min-height: 600px;
+    background-position: left;
   }
 
   .hero-section .prt-page-title-row-inner .hero-content-block {
