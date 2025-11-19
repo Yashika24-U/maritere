@@ -3483,7 +3483,7 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
     position: relative; 
     width: 100%;
     min-height: 400px;
-    background-image: url("/images/Images/science-banner.jpg");
+    background-image: url("/images/Images/science-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -3500,10 +3500,12 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
     position: relative;
     width: 100%;
     min-height: 400px;
-    background-image: url("/images/Images/services-banner.jpg");
+    background-image: url("/images/Images/service-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+
+ }
 /* .hero-section2.hero-wrapper{
     width: 100%;
     min-height: 700px;
