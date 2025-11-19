@@ -289,7 +289,7 @@ ul {
 }
 
 .bg-base-dark {
-  background-color: #f2e2c9;
+  background-color: black;
 }
 .bg-base-grey {
   background-color: var(--base-grey);
@@ -2175,18 +2175,18 @@ ul.prt-pricelist-block li span {
 .footer .widget .widget-title {
   display: inline-block;
   position: relative;
-  color: black;
+  color: white;
 }
 .textwidget.widget-text {
-  color: black;
+  color: white;
 }
 .footer-widget-box {
-  color: black;
+  color: white;
   line-height: 35px;
 }
 
 .footer-widget-box.res-767-mt-30 h3 {
-  color: black;
+  color: white;
 }
 
 /*.social-icons*/
@@ -2208,7 +2208,7 @@ ul.prt-pricelist-block li span {
   padding-right: 0px;
 }
 .footer .first-footer .widget ul.social-icons li a {
-  color: black;
+  color: white;
   font-size: 18px;
   line-height: 18px;
   text-transform: capitalize;
@@ -2259,10 +2259,10 @@ ul.menu-footer-link li a:hover {
   font-size: 16px;
   margin-bottom: 0px;
   text-align: center;
-  color: black;
+  color: white;
 }
 .bottom-footer .copyright p a {
-  color: black;
+  color: white;
 }
 .bottom-footer .copyright p a:hover {
   color: var(--base-skin);
@@ -2287,7 +2287,7 @@ ul.menu-footer-link li a:hover {
   font-size: 14px;
   line-height: 15px;
   font-weight: 500;
-  color: black;
+  color: white;
 }
 .bottom-footer-nav-item a:hover,
 .bottom-footer .copyright p.bottom-footer-text a:hover {
@@ -2314,7 +2314,7 @@ ul.menu-footer-link li a {
   font-size: 16px;
   line-height: 16px;
   font-weight: 500;
-  color: black !important;
+  color: white !important;
 }
 
 /*timelist-block*/
@@ -2352,10 +2352,10 @@ ul.timelist-block li.timelist-item i {
 .footer-content-cta .prt-email,
 .footer-content-cta .prt-call {
   padding: 15px 33px;
-  border: 2px solid black;
+  border: 2px solid white;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 /*
 .footer-content-cta .prt-email:hover,
@@ -2366,7 +2366,7 @@ ul.timelist-block li.timelist-item i {
   display: inline-flex;
 }
 .footer-content-cta .prt-email a {
-  color: black;
+  color: white;
   font-size: 18px;
   line-height: 18px;
   font-weight: 500;
@@ -2377,7 +2377,7 @@ ul.timelist-block li.timelist-item i {
 }
 
 .footer-content-cta .prt-call a {
-  color: black;
+  color: white;
   font-size: 16px;
   line-height: 16px;
   font-weight: 500;
@@ -2435,14 +2435,68 @@ ul.timelist-block li.timelist-item i {
     Page-Title-Row
 ------------------------*/
 .prt-page-title-row {
-  background-image: url(../images/bg-page-title.jpg);
+  background-image: url("/images/Images/services-banner.jpg");
   width: 100%;
+  height: auto;
   position: relative;
   z-index: 1;
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+}
+
+.prt-page-title-row .title{
+  color:black;
+}
+
+.prt-page-title-row1 {
+  background-image: url("/images/Images/science-banner.jpg");
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  }
+
+.prt-page-title-row1 .title{
+  color:black;
+  
+}
+
+.prt-page-title-row2 {
+  background-image: url("/images/Images/contact-banner.jpg");
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.prt-page-title-row2 .title{
+  color:black;
+}
+
+.prt-page-title-row3 {
+  background-image: url("/images/Images/faq-banner.jpg");
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.prt-page-title-row3 .title{
+  color:black;
 }
 div.prt-page-title-row > .prt-bg-layer {
   background-color: #000000;
@@ -2455,7 +2509,7 @@ div.prt-page-title-row > .prt-bg-layer {
   position: relative;
   width: 100%;
   padding: 150px 0 150px;
-  text-align: left;
+  text-align: center;
 }
 .prt-page-title-row-inner.style1 {
   padding: 190px 0 154px;
