@@ -190,7 +190,31 @@
     position: relative;
     margin-bottom: 12px;
     margin-top: -7px;
+      
+     }
+/* .page-title-heading{  
+    display: inline-block;   
+   background: linear-gradient(135deg, #8faa8d 0%, #669B92 100%); */
+  /* background:radial-gradient(circle at top left,#F2E2C9 0%, #f4bd83 50%, #EAA07F 100% );   */
+  /* padding: 50px 200px 50px 50px;         
+  border-radius: 6px;        
+  font-size: 60px;           
+  font-weight: 700;
+} */
+
+
+ 
+
+.services-title {
+  position: relative;
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 2;
 }
+
+  
+
 .section-title span.pretitle{
     position: relative;
     color: var(--base-bodyfont-color);
@@ -3459,7 +3483,7 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
     position: relative; 
     width: 100%;
     min-height: 400px;
-    background-image: url("/images/Images/science-banner1.png");
+    background-image: url("/images/Images/science-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -3491,8 +3515,8 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
 .hero-section3{ 
     position: relative;
     width: 100%;
-    min-height: 400px;
-    background-image: url("/images/Images/faq-banner2.jpg");
+    min-height: 300px;
+    background-image: url("/images/Images/faq-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -3505,6 +3529,15 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
     background-size: cover;
     background-position: center;
 } */
+
+.hero-section4{ 
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background-image: url("/images/Images/contact-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
 .hero-section .prt-page-title-row-inner .hero-content-block{
     position: absolute;
     bottom: -140px;

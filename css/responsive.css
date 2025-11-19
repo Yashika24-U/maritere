@@ -430,7 +430,17 @@
     padding: 26px 22px 24px 10px;
   }
   .prt-page-title-row-inner {
-    padding: 170px 0 100px !important;
+    padding: 200px 0 100px !important;
+  }
+
+  .page-title-heading{
+    padding: 10px 100px 10px 10px;         
+  border-radius: 6px;
+  
+  }
+  .page-title-heading .title{
+    font-size: 40px;           
+  font-weight: 500;
   }
 
   /* Header */
@@ -497,7 +507,7 @@
   .prt-page-title-row .container,
   footer .container {
     max-width: 100%;
-  }
+    }
   .prt-row .container,
   footer .container,
   .sidebar .container {
@@ -509,6 +519,61 @@
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
+
+  .prt-page-title-row {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65% top; 
+    height:auto;
+    object-position: top;
+    top: 50px;
+}
+
+.prt-page-title-row .title{
+  font-weight: 800;
+}
+
+.prt-page-title-row1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65% top; 
+    height:auto;
+    object-position: top;
+    top: 50px;
+}
+
+.prt-page-title-row1 .title{
+  font-weight: 800;
+}
+
+
+.prt-page-title-row2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65% top; 
+    height:auto;
+    object-position: top;
+    top: 50px;
+}
+
+.prt-page-title-row2 .title{
+  font-weight: 800;
+}
+
+.prt-page-title-row3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65% top; 
+    height:auto;
+    object-position: top;
+    top: 50px;
+}
+
+ .prt-page-title-row3 .title{
+  font-weight: 800;
+}
+
+
   .widget-title-h3 {
     min-width: 30%;
   }
@@ -562,6 +627,7 @@
     left: 120px;
     margin-top: 40px;
   }
+  
   .hero-section .hero-content h2.title {
     font-size: 60px;
     line-height: 70px;
@@ -596,6 +662,9 @@
     width: 31.9%;
   }
 }
+
+
+
 
 @media (min-width: 992px) {
   .sidebar .container > .row {
