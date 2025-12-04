@@ -3645,7 +3645,8 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
 }
 
 .science-table.table-striped tbody tr:nth-child(odd) td {
-  background: #fafafa;
+  /* background: #fafafa; */
+  background: rgb(248 233 212);
 }
 
 
