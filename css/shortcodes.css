@@ -3468,7 +3468,7 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
 .hero-section.hero-wrapper{
     width: 100%;
     min-height: 700px;
-    background-image: url("/images/Images/hero-image1.jpg");
+    background-image: url("/images/Images/hero-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -3637,7 +3637,8 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
 
 /* HEADER STYLING */
 .science-table thead th {
-  background: #8FAA8D;
+  /* background: #8FAA8D; */
+  background:#F2A483;
   color: #222;
   font-weight: 600;
   font-size: 20px;
