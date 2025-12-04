@@ -653,6 +653,8 @@
   .featured-imagebox-service.style1 .featured-thumbnail {
     margin-left: 36%;
   }
+
+    
 }
 
 @media only screen and (max-width: 1030px) and (min-width: 992px) {
@@ -1396,6 +1398,7 @@
     margin: 0px 8px 0 18px;
   }
 }
+}
 
 @media (max-width: 767px) {
   .res-767-mr-0 {
@@ -1969,6 +1972,64 @@
     padding: 30px 30px 30px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+
+  /* Prevent text cut-off */
+.science-table td,
+.science-table th {
+  white-space: normal !important;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+
+  .science-table td:nth-child(1),
+  .science-table th:nth-child(1),
+  .science-table td:nth-child(2),
+  .science-table th:nth-child(2) {
+    width: auto !important;
+    display: block;
+  }
+
+  /* Stack cells vertically for better readability */
+  .science-table tr {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .science-table td {
+    display: block;
+    width: 100%;
+  }
+
+  /* Give headings a label effect */
+  .science-table td::before {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    color: #1a1a1a;
+  }
+
+  /* Labels for each column */
+  .science-table td:nth-child(1)::before {
+    content: "Current Reality";
+  }
+  .science-table td:nth-child(2)::before {
+    content: "What You Can Control";
+  }
+
+
+/* Horizontal scroll fallback */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+}
+
 @media only screen and (max-width: 375px) {
   .download_block {
     display: block;
@@ -2005,6 +2066,61 @@
   .spacing-5 {
     padding: 40px 25px;
   }
+
+  /* Prevent text cut-off */
+.science-table td,
+.science-table th {
+  white-space: normal !important;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+
+  .science-table td:nth-child(1),
+  .science-table th:nth-child(1),
+  .science-table td:nth-child(2),
+  .science-table th:nth-child(2) {
+    width: auto !important;
+    display: block;
+  }
+
+  /* Stack cells vertically for better readability */
+  .science-table tr {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .science-table td {
+    display: block;
+    width: 100%;
+  }
+
+  /* Give headings a label effect */
+  .science-table td::before {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    color: #1a1a1a;
+  }
+
+  /* Labels for each column */
+  .science-table td:nth-child(1)::before {
+    content: "Current Reality";
+  }
+  .science-table td:nth-child(2)::before {
+    content: "What You Can Control";
+  }
+
+
+/* Horizontal scroll fallback */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 }
 
 @media only screen and (max-width: 341px) {
