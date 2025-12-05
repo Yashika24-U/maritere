@@ -2502,14 +2502,16 @@ ul.timelist-block li.timelist-item i {
   height: auto;
   position: relative;
   z-index: 1;
-  background-position: center top;
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
 .prt-page-title-row3 .title{
-  color:black;
+  background-image: linear-gradient(267.43deg, #8faa8d 60%, #669B92 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 div.prt-page-title-row > .prt-bg-layer {
   background-color: #000000;
