@@ -720,6 +720,13 @@
   }
 }
 
+/* @media (min-width: 370px) and (max-width: 770px) { 
+  .section-title{
+    font-size: 10px !important;
+  }
+} */
+
+
 /* Small tablets: 535px to 767px */
 @media (min-width: 481px) and (max-width: 767px) {
   .hero-section .hero-content h2 {
