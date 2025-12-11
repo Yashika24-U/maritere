@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 /** 
           1. prt-row 
 
@@ -92,6 +94,7 @@
     width: 100%; 
     top: 0;
     left: 0;
+   
 }
 .prt-left-span > .prt-col-wrapper-bg-layer {
     width: auto;
@@ -156,9 +159,9 @@
 /* ===============================================
     5.Col-Bg-Image  
 ------------------------*/
-.col-bg-img-one.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
+/* .col-bg-img-one.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
     background-image: none !important;
-}
+} */
 
 /* Show image only for large screens */
 @media (min-width: 1024px) {
@@ -168,7 +171,8 @@
       background-repeat: no-repeat;
       background-size: cover;
   }
-}   
+}
+ 
 .col-bg-img-two.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
     background-image: url(../images/bg-image/col-bgimage-2.png);
     background-position: center bottom;
@@ -228,14 +232,14 @@
 .section-title h2{
     position: relative;
     color: var(--base-headingfont-color);
-    font-size: 60px;
+    font-size: 50px;
     line-height: 70px;
     font-weight: 700;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 .section-title h3.desc-heading{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 28px;
     font-weight: 500;
     color: #737373;
@@ -416,6 +420,7 @@
     color: var(--base-white);
     transition: all 0s ease 0s;
      padding: 20px !important; 
+     font-family: 'Outfit', sans-serif;
 }
 .prt-btn.prt-btn-style-fill.prt-btn-color-skincolor:hover{
     background-color: #F2A483;
@@ -3638,7 +3643,7 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
 /* HEADER STYLING */
 .science-table thead th {
   /* background: #8FAA8D; */
-  background:#F2A483;
+  background:#F8D0D9; 
   color: #222;
   font-weight: 600;
   font-size: 20px;
@@ -3647,7 +3652,12 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
 
 .science-table.table-striped tbody tr:nth-child(odd) td {
   /* background: #fafafa; */
-  background: rgb(248 233 212);
+  background: #fffaeb;
+}
+
+.science-table.table-striped tbody tr:nth-child(even) td {
+  /* background: #fafafa; */
+  background: #E8FCF6;
 }
 
 
