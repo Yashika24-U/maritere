@@ -1,6 +1,6 @@
 /* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"); */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
+@import url('href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 /**
 
   1. General
@@ -2446,6 +2446,14 @@ ul.timelist-block li.timelist-item i {
   background-repeat: no-repeat;
   overflow: hidden;
 }
+.prt-page-title-row .title{
+    /* background-image: linear-gradient(267.43deg, #8faa8d 60%, #669B92 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-family:'Shadows Into Light', cursive;
+  font-weight: 1000 !important;
+  color: white;
+  }
 
 .prt-page-title-row1 {
   background-image: url("/images/Images/services-banner.jpg");
@@ -2458,68 +2466,28 @@ ul.timelist-block li.timelist-item i {
   background-repeat: no-repeat;
   overflow: hidden;
 }
-
-.prt-page-title-row4 {
-  background-image: url("/images/Images/science-banner.jpg");
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 1;
-  background-position: center bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-.prt-page-title-row .title{
-  
-  /* background: linear-gradient(135deg, #8faa8d 50%, #669B92 50%); */
-  /* background: radial-gradient(#F2E2C9 0%, #f4bd83 50%, #EAA07F 100% ); */
-  background-image: linear-gradient(267.43deg, #8faa8d 60%, #669B92 40%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  }
-
-  .prt-page-title-row2 .title{
-    background-image: linear-gradient(267.43deg, #8faa8d 60%, #669B92 40%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  }
-
-.prt-page-title-row1 {
-  background-image: url("/images/Images/science-banner.jpg");
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 1;
-  background-position: center top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  }
-
 .prt-page-title-row1 .title{
-  color:black;
-  
+  font-family:'Shadows Into Light', cursive;
+  font-weight: 1000 !important;
+  color: white;  
 }
 
 .prt-page-title-row2 {
-  background-image: url("/images/Images/contact-banner.jpg");
+  background-image: url("/images/Images/contact.png");
   width: 100%;
   height: auto;
   position: relative;
   z-index: 1;
-  background-position: center top;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
 }
-
 .prt-page-title-row2 .title{
+  font-family:'Shadows Into Light', cursive;
+  font-weight: 1000 !important;
   color:white;
 }
-
-
 
 .prt-page-title-row3 {
   background-image: url("/images/Images/faq-banner.jpg");
@@ -2532,13 +2500,36 @@ ul.timelist-block li.timelist-item i {
   background-repeat: no-repeat;
   overflow: hidden;
 }
-
 .prt-page-title-row3 .title{
-  background-image: linear-gradient(267.43deg, #8faa8d 60%, #669B92 40%);
+  /* background-image: linear-gradient(267.43deg, #8faa8d 60%, #669B92 40%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+  font-family:'Shadows Into Light', cursive;
+  font-weight: 1000 !important;
+  color: white;
 }
-div.prt-page-title-row > .prt-bg-layer {
+
+.prt-page-title-row4 {
+  background-image: url("/images/Images/science-banner.jpg");
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  }
+.prt-page-title-row4 .title{
+  /* background-image: linear-gradient(267.43deg, #8faa8d 60%, #669B92 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  font-family:'Shadows Into Light', cursive;
+  font-weight: 1000 !important;
+  color: white;
+}
+
+.div.prt-page-title-row > .prt-bg-layer {
   background-color: #000000;
   opacity: 0.4;
 }

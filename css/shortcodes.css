@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 /** 
           1. prt-row 
 
@@ -159,19 +159,16 @@
 /* ===============================================
     5.Col-Bg-Image  
 ------------------------*/
-/* .col-bg-img-one.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
-    background-image: none !important;
-} */
 
 /* Show image only for large screens */
-@media (min-width: 1024px) {
-  .col-bg-img-one.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
+/* @media (min-width: 1024px) { */
+  /* .col-bg-img-one.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
       background-image: url("/images/Images/dillidalli-colorcorrection-2 1.jpg") !important;
       background-position: top center;
       background-repeat: no-repeat;
       background-size: cover;
-  }
-}
+  } */
+/* } */
  
 .col-bg-img-two.prt-col-bgimage-yes > .prt-col-wrapper-bg-layer {
     background-image: url(../images/bg-image/col-bgimage-2.png);
@@ -196,18 +193,10 @@
     margin-top: -7px;
       
      }
-/* .page-title-heading{  
-    display: inline-block;   
-   background: linear-gradient(135deg, #8faa8d 0%, #669B92 100%); */
-  /* background:radial-gradient(circle at top left,#F2E2C9 0%, #f4bd83 50%, #EAA07F 100% );   */
-  /* padding: 50px 200px 50px 50px;         
-  border-radius: 6px;        
-  font-size: 60px;           
-  font-weight: 700;
-} */
-
-
  
+.hero-content h2{
+    font-family: 'Shadows Into Light', cursive;
+}
 
 .services-title {
   position: relative;
@@ -2444,7 +2433,7 @@ section { counter-reset:accordion}
 }
 
 
-/*style1*/
+
 
 
 
@@ -2474,6 +2463,15 @@ section { counter-reset:accordion}
 }
 
 /* contactform */
+.contact h1{
+  /* background-image: linear-gradient(267.43deg, #8faa8d 60%, #669B92 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-family:'Shadows Into Light', cursive;
+  font-weight: 1000 !important;
+  color: ivory;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);;
+ }
 
 .map-contact-form .contact-form-title h3{
     font-size: 36px;
@@ -3548,15 +3546,25 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
 .hero-section .prt-page-title-row-inner .hero-content-block{
     position: absolute;
     bottom: -140px;
-    left: 775px;
+    /* left: 775px; */
+    left: 50%;
+    transform: translateX(-60%);
     top: 65px;
     width: 913px;
     height: 913px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.902);
+    /* background-color: rgba(255, 255, 255, 0.902); */
     opacity: .9;
 }
-.hero-section .prt-page-title-row-inner .hero-content-block{
+
+.hero-section .prt-page-title-row-inner .hero-content-block h2{
+    color: white;
+}
+
+.hero-section .prt-page-title-row-inner .hero-content-block h3{
+    color: black;
+}
+/* .hero-section .prt-page-title-row-inner .hero-content-block{
     animation-name: float_left_right;
     animation-duration: 9s;
     animation-iteration-count: infinite;
@@ -3590,13 +3598,7 @@ ul.prt-recent-post-list > li .post-date i{margin-right: 7px;}
         opacity: 1;
     }
 
-}
-
-/* .hero-section .hero-content h2{
-    padding:50px 0px 0px 0px;
-    
 } */
-
 .hero-section .hero-content h3{
     font-size: 24px;
     line-height: 34px;
