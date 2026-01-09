@@ -675,7 +675,7 @@
     display: flex;
     width: 100%;
   }
-}
+  }
 @media (min-width: 300px) and (max-width: 480px) {
   .hero-section .hero-content h2 {
     font-size: 24px !important;
