@@ -757,7 +757,7 @@
 }
 }
 @media (max-width: 320px) {
-  .hero-section .prt-page-title-row-inner .hero-content-block{
+   .hero-section .prt-page-title-row-inner .hero-content-block{
    left: 100px !important;
 }
 }
